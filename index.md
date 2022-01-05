@@ -1,8 +1,8 @@
 ---
-title: Deep Probabilistic and Generative Models
-subtitle: An advanced topic in machine learning.
+title: CS 5785 - Applied Machine Learning
+subtitle: Cornell Tech
 layout: page
-callouts: dgm_callouts
+callouts: aml_callouts
 show_sidebar: false
 hero_height: is-medium
 ---
