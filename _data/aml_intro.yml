@@ -5,7 +5,7 @@ items:
     subtitle: What is this course?
     icon: fa-laugh-wink
     description: >
-      Learn machine learning the practical way - both how things in ML works in math as well as how to apply them in real life.
+      Learn and apply key concepts of modeling, analysis and validation from machine learning, data mining and signal processing to analyze and extract meaning from data.
 
     call_to_action_name: Learn More
     call_to_action_link: /page-1/
@@ -13,7 +13,7 @@ items:
     subtitle: Who is this course for?
     icon: fa-user-graduate
     description: >
-      Discrete Structures, Linear Algebra, Probability, and Intermediate Programming with Python.
+      Discrete Structures, Linear Algebra, Probability, and experience programming with Python.
 
     call_to_action_name: Learn More
     call_to_action_link: /page-2/
