@@ -1,6 +1,6 @@
 ---
 title: CS 5785 - Applied Machine Learning
-subtitle: Cornell Tech
+subtitle: Cornell Tech (Site in Development)
 layout: page
 callouts: aml_callouts
 show_sidebar: false
