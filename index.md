@@ -8,13 +8,13 @@ hero_height: is-medium
 ---
 <div class="columns">
     <div class="column is-6">
-        {% include youtube.html video="vcE9WGbi4QY" %}
-    </div>
-    <div class="column is-6">
         <h2>Course Abstract</h2>
         <p>Learn and apply key concepts of modeling, analysis and validation from machine learning, data mining and signal processing to analyze and extract meaning from data.</p>
         <p>Implement algorithms and perform experiments on images, text, audio and mobile sensor measurements.</p>
         <p>Gain working knowledge of supervised and unsupervised techniques including classification, regression, clustering, feature selection, and dimensionality reduction.</p>
+    </div>
+    <div class="column is-6">
+        {% include youtube.html video="vcE9WGbi4QY" %}
     </div>
 </div>
 
