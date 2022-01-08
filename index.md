@@ -2,16 +2,17 @@
 title: CS 5787 - Applied Machine Learning
 subtitle: Cornell Tech (Site in Development)
 layout: page
-callouts: aml_callouts
 show_sidebar: false
 hero_height: is-medium
 ---
 <div class="columns">
     <div class="column is-6">
-        <h2>Course Abstract</h2>
-        <p>Learn and apply key concepts of modeling, analysis and validation from machine learning, data mining and signal processing to analyze and extract meaning from data.</p>
-        <p>Implement algorithms and perform experiments on images, text, audio and mobile sensor measurements.</p>
-        <p>Gain working knowledge of supervised and unsupervised techniques including classification, regression, clustering, feature selection, and dimensionality reduction.</p>
+        <h2>What is this course?</h2>
+        <p>Learn machine learning the practical way - both how things in ML works in math as well as how to apply them in real life.</p>
+        <h2>What are the prerequisites?</h2>
+        <p>Discrete Structures, Linear Algebra, Probability, and Intermediate Programming with Python.</p>
+        <h2>Who are we?</h2>
+        <p>This is a graduate level computer science course offered by Cornell Tech in New York City.</p>
     </div>
     <div class="column is-6">
         {% include youtube.html video="vcE9WGbi4QY" %}
