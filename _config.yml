@@ -9,7 +9,7 @@ baseurl: "/aml"
 siteurl: "https://errrneist.github.io/aml"
 url: ""
 permalink: pretty
-favicon: "/img/favicon.png"
+# favicon: "/img/favicon.png"
 gh_sponsor: hongjunwu
 #hide_share_buttons: true
 theme_color: "#b31b1b"
