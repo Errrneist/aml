@@ -1,8 +1,6 @@
-- name: Cornell Logo
-  link: /
 - name: Blog
   link: /blog/
-- name: Products
+- name: Student Showcase
   link: /products/
-- name: Privacy Policy
+- name: Special Thanks
   link: /privacy-policy/
