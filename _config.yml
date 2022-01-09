@@ -9,11 +9,12 @@ baseurl: "/aml"
 siteurl: "https://errrneist.github.io/aml/"
 url: ""
 permalink: pretty
-#favicon: /path/to/favicon.png
+favicon: "/img/favicon.png"
 gh_sponsor: hongjunwu
 #hide_share_buttons: true
 theme_color: "#b31b1b"
 #fixed_navbar: top
+hero_image: "https://www.tech.cornell.edu/wp-content/uploads/2018/06/visit-us-thumbnail-360-1440x1166.jpg"
 
 paginate: 5
 paginate_path: "/blog/page:num"

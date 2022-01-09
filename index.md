@@ -40,7 +40,7 @@ hero_height: is-medium
 <div class="container">
     <h2>Chapter 1: Introduction: Supervised, unsupervised, reinforcement learning</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Note: This style is the most simple, but lack any aesthetics.</p>
+    <p>Note: This style is the most simple way, which is surprisingly favored by many computer scientists, but lack any aesthetics.</p>
     <div class="columns">
         <div class="column is-4">
             <h3>Videos</h3>
@@ -65,7 +65,7 @@ hero_height: is-medium
 <div class="container">
     <h2>Chapter 2: Introduction. Models, features, objectives, optimization.</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Note: This uses the basic button, while it might look simple, it can contain many buttons.</p>
+    <p>Note: This uses the basic button, while it might look simple, the benefit of it is that it can contain a lot of buttons.</p>
     <div class="columns">
         <div class="column is-4">
             <h3>Videos</h3>
@@ -88,7 +88,7 @@ hero_height: is-medium
 ***
 
 <div class="container">
-    <h2>Chapter 3: Introduction. Models, features, objectives, optimization.</h2>
+    <h2>Chapter 3: Regression. Linear Regression. OLS.</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <p>Note: This is one of the more aesthetically pleasing button options. This option keeps the sub-title.</p>
     <div class="columns">
@@ -113,13 +113,34 @@ hero_height: is-medium
 ***
 
 <div class="container">
-    <h2>Chapter 4: Introduction. Models, features, objectives, optimization.</h2>
+    <h2>Chapter 4: Classification. Logistic Regression and Max Likelihood</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <p>Note: This is one of the more aesthetically pleasing button options. This option does not have the sub-title.</p>
     <div class="columns">
         <div class="column is-4">
             <button class="button is-primary is-light">Video 1</button>
             <button class="button is-primary is-light">Video 2</button>
+        </div>
+        <div class="column is-4">
+            <button class="button is-link is-light">Note 1</button>
+            <button class="button is-link is-light">Note 2</button>
+        </div>
+        <div class="column is-4">
+            <button class="button is-info is-light">Extra Reading 1</button>
+            <button class="button is-info is-light">Extra Reading 2</button>
+        </div>
+    </div>
+</div>
+
+***
+
+<div class="container">
+    <h2>Chapter 5: Why Does SL Work? Data distribution, over/under fitting, regularization</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>Note: Of course, we cal also integrate video directly.</p>
+    <div class="columns">
+        <div class="column is-4">
+            {% include youtube.html video="vcE9WGbi4QY" %}
         </div>
         <div class="column is-4">
             <button class="button is-link is-light">Note 1</button>
