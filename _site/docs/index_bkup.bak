@@ -364,9 +364,8 @@ JetBrains have kindly provided an Open Source licence to aid in the future devel
 
         
         <div class="columns is-multiline">
-
             <figure class="image">
-                <img src="./img/cornell_brand_registered.svg">
+                <a href="https://www.tech.cornell.edu"><img src="./img/cornell_brand_registered.svg"></a>
             </figure>
 
             
