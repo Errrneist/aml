@@ -1,6 +1,15 @@
-<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
+<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary"  style="background: url('./img/hero_image_tinted.png') no-repeat center center; background-size: cover;" >
+    <!--
+        <section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
+    -->
     <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
         <div class="container">
+            <div class="column is-4">
+                <figure class="image">
+                    <a href="https://www.tech.cornell.edu"><img src="./img/cornell-tech-logo-optimized.png"></a>
+                </figure>
+            </div>
+            <br>
             <h1 class="title is-2">{{ page.title }}</h1>
             <p class="subtitle is-3">{{ page.subtitle }}</p>
             {% if page.hero_link %}

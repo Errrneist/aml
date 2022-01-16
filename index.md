@@ -1,28 +1,16 @@
 ---
 title: CS 5787 - Applied Machine Learning
-subtitle: Cornell Tech (Site in Development)
+subtitle: Lorem ipsum dolor sit amet.
 layout: page
 show_sidebar: false
 hero_height: is-medium
 ---
 <div class="columns">
     <div class="column is-6">
-        <h2>What is this course?</h2>
-        <p>Learn machine learning the practical way - both how things in ML works in math as well as how to apply them in real life.</p>
-        <h2>What are the prerequisites?</h2>
-        <p>Discrete Structures, Linear Algebra, Probability, and Intermediate Programming with Python.</p>
-        <h2>Who are we?</h2>
-        <p>This is a graduate level computer science course offered by Cornell Tech in New York City.</p>
-    </div>
-    <div class="column is-6">
-        {% include youtube.html video="vcE9WGbi4QY" %}
-    </div>
-</div>
-
-***
-
-<div class = "container">
-    <div class = "columns">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <hr>
+        <div class = "columns">
         <div class="column is-4">
             <center><button class="button is-primary is-outlined">About</button></center>
         </div>
@@ -33,69 +21,42 @@ hero_height: is-medium
             <center><button class="button is-primary is-outlined">Affiliates</button></center>
         </div>
     </div>
-</div>
-
-***
-
-<div class="container">
-    <h2>Chapter 1: Introduction: Supervised, unsupervised, reinforcement learning</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Note: This style is the most simple way, which is surprisingly favored by many computer scientists, but lack any aesthetics.</p>
-    <div class="columns">
-        <div class="column is-4">
-            <h3>Videos</h3>
-            <li><a href="#">Video 1</a></li>
-            <li><a href="#">Video 2</a></li>
-        </div>
-        <div class="column is-4">
-            <h3>Lecture Notes</h3>
-            <li><a href="#">Notes 1</a></li>
-            <li><a href="#">Notes 1</a></li>
-        </div>
-        <div class="column is-4">
-            <h3>Additional Material</h3>
-            <li><a href="#">Extra Reading 1</a></li>
-            <li><a href="#">Extra Reading 2</a></li>
-        </div>
+    </div>
+    <div class="column is-6">
+        {% include youtube.html video="vcE9WGbi4QY" %}
     </div>
 </div>
 
-***
 
-<div class="container">
-    <h2>Chapter 2: Introduction. Models, features, objectives, optimization.</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Note: This uses the basic button, while it might look simple, the benefit of it is that it can contain a lot of buttons.</p>
-    <div class="columns">
-        <div class="column is-4">
-            <h3>Videos</h3>
-            <button type="button" class="btn btn-primary">Video 1</button>
-            <button type="button" class="btn btn-primary">Video 2</button>
-        </div>
-        <div class="column is-4">
-            <h3>Lecture Notes</h3>
-            <button type="button" class="btn btn-primary">Video 1</button>
-            <button type="button" class="btn btn-primary">Video 2</button>
-        </div>
-        <div class="column is-4">
-            <h3>Additional Material</h3>
-            <button type="button" class="btn btn-primary">Video 1</button>
-            <button type="button" class="btn btn-primary">Video 2</button>
-        </div>
-    </div>
-</div>
 
 ***
 
 <div class="container">
-    <h2>Chapter 3: Regression. Linear Regression. OLS.</h2>
+    <h2>Chapter 1: Lorem ipsum.</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Note: This is one of the more aesthetically pleasing button options. This option keeps the sub-title.</p>
     <div class="columns">
         <div class="column is-4">
             <h3>Videos</h3>
-            <button class="button is-primary is-light">Video 1</button>
-            <button class="button is-primary is-light">Video 2</button>
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Video Button</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://www.cornell.edu" class="dropdown-item">
+                        Cornell
+                      </a>
+                      <a href="https://www.google.com" class="dropdown-item">
+                        Google
+                      </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="column is-4">
             <h3>Lecture Notes</h3>
@@ -110,45 +71,41 @@ hero_height: is-medium
     </div>
 </div>
 
-***
+<script>
+// Script for making dropdown functional.
+// Reference: https://stackoverflow.com/a/58405701
+// Get all dropdowns on the page that aren't hoverable.
+const dropdowns = document.querySelectorAll('.dropdown:not(.is-hoverable)');
 
-<div class="container">
-    <h2>Chapter 4: Classification. Logistic Regression and Max Likelihood</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Note: This is one of the more aesthetically pleasing button options. This option does not have the sub-title.</p>
-    <div class="columns">
-        <div class="column is-4">
-            <button class="button is-primary is-light">Video 1</button>
-            <button class="button is-primary is-light">Video 2</button>
-        </div>
-        <div class="column is-4">
-            <button class="button is-link is-light">Note 1</button>
-            <button class="button is-link is-light">Note 2</button>
-        </div>
-        <div class="column is-4">
-            <button class="button is-info is-light">Extra Reading 1</button>
-            <button class="button is-info is-light">Extra Reading 2</button>
-        </div>
-    </div>
-</div>
+if (dropdowns.length > 0) {
+  // For each dropdown, add event handler to open on click.
+  dropdowns.forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      e.stopPropagation();
+      el.classList.toggle('is-active');
+    });
+  });
 
-***
+  // If user clicks outside dropdown, close it.
+  document.addEventListener('click', function(e) {
+    closeDropdowns();
+  });
+}
 
-<div class="container">
-    <h2>Chapter 5: Why Does SL Work? Data distribution, over/under fitting, regularization</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Note: Of course, we cal also integrate video directly.</p>
-    <div class="columns">
-        <div class="column is-4">
-            {% include youtube.html video="vcE9WGbi4QY" %}
-        </div>
-        <div class="column is-4">
-            <button class="button is-link is-light">Note 1</button>
-            <button class="button is-link is-light">Note 2</button>
-        </div>
-        <div class="column is-4">
-            <button class="button is-info is-light">Extra Reading 1</button>
-            <button class="button is-info is-light">Extra Reading 2</button>
-        </div>
-    </div>
-</div>
+/*
+ * Close dropdowns by removing `is-active` class.
+ */
+function closeDropdowns() {
+  dropdowns.forEach(function(el) {
+    el.classList.remove('is-active');
+  });
+}
+
+// Close dropdowns if ESC pressed
+document.addEventListener('keydown', function (event) {
+  let e = event || window.event;
+  if (e.key === 'Esc' || e.key === 'Escape') {
+    closeDropdowns();
+  }
+});
+</script>
