@@ -10,13 +10,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content=#b31b1b>
-    <link rel="stylesheet" href="https://errrneist.github.io/aml/assets/css/app.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+<!--    <link rel="stylesheet" href="/assets/css/app.css">-->
 <!--    <link rel="shortcut icon" type="image/png"-->
-<!--           href="/aml/favicon.png" -->
+<!--           href="/favicon.png" -->
 <!--    />-->
-    <link rel="shortcut icon" type="image/ico"
-           href="./img/favicon.ico" 
-    />
+    <link rel="shortcut icon" type="image/ico" href="https://errrneist.github.io/img/aml/favicon.ico"/>
+<!--           href="./img/favicon.ico" -->
+
+
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
     
@@ -48,12 +50,12 @@
     <nav class="navbar is-primary " x-data="{ openNav: false }">
     <div class="container">
         <div class="navbar-brand">
-<!--            <a href="/aml/" class="navbar-item">-->
-<!--                Applied Machine Learning-->
-<!--            </a>-->
-            <figure class="image">
-                <a href="https://www.tech.cornell.edu"><img src="./img/cornell_logo.svg"></a>
-            </figure>
+            <a href="/" class="navbar-item">
+                Applied Machine Learning
+            </a>
+<!--            <figure class="image">-->
+<!--                <a href="https://www.tech.cornell.edu"><img src="./img/cornell_logo.svg"></a>-->
+<!--            </figure>-->
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -62,56 +64,56 @@
         </div>
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
-                <a href="/aml/" class="navbar-item ">Home</a>
+                <a href="/" class="navbar-item ">Home</a>
                 
                 
                     
                     <div class="navbar-item has-dropdown is-hoverable ">
-                        <a href="/aml/" class="navbar-link ">Pages</a>
+                        <a href="/" class="navbar-link ">Pages</a>
                         <div class="navbar-dropdown">
                             
-                            <a href="/aml/page-1/" class="navbar-item ">Page With Sidebar</a>
+                            <a href="/page-1/" class="navbar-item ">Page With Sidebar</a>
                             
-                            <a href="/aml/page-2/" class="navbar-item ">Page No Sidebar</a>
+                            <a href="/page-2/" class="navbar-item ">Page No Sidebar</a>
                             
-                            <a href="/aml/page-3/" class="navbar-item ">Page With Menubar</a>
+                            <a href="/page-3/" class="navbar-item ">Page With Menubar</a>
                             
-                            <a href="/aml/page-4/" class="navbar-item ">Page With Tabs</a>
+                            <a href="/page-4/" class="navbar-item ">Page With Tabs</a>
                             
-                            <a href="/aml/page-5/" class="navbar-item ">Page Without Footer</a>
+                            <a href="/page-5/" class="navbar-item ">Page Without Footer</a>
                             
-                            <a href="/aml/page-without-hero/" class="navbar-item ">Page Without Hero</a>
+                            <a href="/page-without-hero/" class="navbar-item ">Page Without Hero</a>
                             
-                            <a href="/aml/page-with-contents/" class="navbar-item ">Page With Contents</a>
+                            <a href="/page-with-contents/" class="navbar-item ">Page With Contents</a>
                             
-                            <a href="/aml/page-with-video/" class="navbar-item ">Page With Video</a>
+                            <a href="/page-with-video/" class="navbar-item ">Page With Video</a>
                             
-                            <a href="/aml/page-with-image-modal/" class="navbar-item ">Page With Image Modal</a>
+                            <a href="/page-with-image-modal/" class="navbar-item ">Page With Image Modal</a>
                             
-                            <a href="/aml/page-with-notification/" class="navbar-item ">Page With Notifications</a>
+                            <a href="/page-with-notification/" class="navbar-item ">Page With Notifications</a>
                             
-                            <a href="/aml/landing/" class="navbar-item ">Landing Page With Callouts</a>
+                            <a href="/landing/" class="navbar-item ">Landing Page With Callouts</a>
                             
-                            <a href="/aml/sponsors/" class="navbar-item ">Sponsors Page</a>
+                            <a href="/sponsors/" class="navbar-item ">Sponsors Page</a>
                             
-                            <a href="/aml/gallery/" class="navbar-item ">Image Gallery</a>
+                            <a href="/gallery/" class="navbar-item ">Image Gallery</a>
                             
-                            <a href="/aml/example-recipe/" class="navbar-item ">Recipe Page</a>
+                            <a href="/example-recipe/" class="navbar-item ">Recipe Page</a>
                             
                         </div>
                     </div>
                     
                 
                     
-                    <a href="/aml/products/" class="navbar-item ">Topics</a>
+                    <a href="/products/" class="navbar-item ">Topics</a>
                     
                 
                     
-                    <a href="/aml/showcase/" class="navbar-item ">Student Projects</a>
+                    <a href="/showcase/" class="navbar-item ">Student Projects</a>
                     
                 
                     
-                    <a href="/aml/blog/" class="navbar-item ">Posts</a>
+                    <a href="/blog/" class="navbar-item ">Posts</a>
                     
                 
                 
@@ -131,7 +133,7 @@
 </nav>
 
     
-        <section class="hero  is-medium  is-bold is-primary"  style="background: url('./img/hero_image_tinted.png') no-repeat center center; background-size: cover;" >
+        <section class="hero  is-medium  is-bold is-primary"  style="background: url('https://errrneist.github.io/img/aml/hero_image_tinted.png') no-repeat center center; background-size: cover;" >
     <!--
         <section class="hero  is-medium  is-bold is-primary" >
     -->
@@ -139,7 +141,7 @@
         <div class="container">
             <div class="column is-4">
                 <figure class="image">
-                    <a href="https://www.tech.cornell.edu"><img src="./img/cornell-tech-logo-optimized.png"></a>
+                    <a href="https://www.tech.cornell.edu"><img src="https://errrneist.github.io/img/aml/cornell-tech-logo-optimized.png"></a>
                 </figure>
             </div>
             <br>
@@ -205,19 +207,19 @@
 <p><strong>Share</strong></p>
 <div class="buttons ">
     <a class="button is-medium is-facebook"
-       onclick="window.open('https://www.facebook.com/share.php?u=/aml/development/2018/05/28/why-use-a-static-site-generator/');">
+       onclick="window.open('https://www.facebook.com/share.php?u=/development/2018/05/28/why-use-a-static-site-generator/');">
         <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
     </a>
     <a class="button is-medium is-twitter"
-       onclick="window.open('https://twitter.com/intent/tweet?text=/aml/development/2018/05/28/why-use-a-static-site-generator/');">
+       onclick="window.open('https://twitter.com/intent/tweet?text=/development/2018/05/28/why-use-a-static-site-generator/');">
         <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
     </a>
     <a class="button is-medium is-linkedin"
-       onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=/aml/development/2018/05/28/why-use-a-static-site-generator/&title=Why+use+a+static+site+generator&summary=&source=');">
+       onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=/development/2018/05/28/why-use-a-static-site-generator/&title=Why+use+a+static+site+generator&summary=&source=');">
         <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
     </a>
     <a class="button is-medium is-reddit"
-       onclick="window.open('https://reddit.com/submit?url=/aml/development/2018/05/28/why-use-a-static-site-generator/');">
+       onclick="window.open('https://reddit.com/submit?url=/development/2018/05/28/why-use-a-static-site-generator/');">
         <span class="icon"><i class="fab fa-reddit fa-lg"></i></span>
     </a>
 </div>
@@ -244,7 +246,7 @@
     <div class="card-content">
         <div class="content">
             
-            <a class="title is-4" href="/aml/2021/10/30/creating-a-post-series/">Creating a post series</a>
+            <a class="title is-4" href="/2021/10/30/creating-a-post-series/">Creating a post series</a>
             
             
                 <p><p>From version 0.12, you can now make a post a part of a series of posts, linking to the other posts in the series, by creating a <code class="language-plaintext highlighter-rouge">series</code> data file and then setting the series in each of the post’s front matter.</p>
@@ -253,7 +255,7 @@
             
         </div>
         <div class="has-text-centered">
-            <a href="/aml/2021/10/30/creating-a-post-series/" class="button is-primary">Read more</a>
+            <a href="/2021/10/30/creating-a-post-series/" class="button is-primary">Read more</a>
         </div>
     </div>
     <footer class="card-footer">
@@ -272,7 +274,7 @@
     <div class="card-content">
         <div class="content">
             
-            <a class="title is-4" href="/aml/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/">Creating a docs site with Bulma Clean Theme</a>
+            <a class="title is-4" href="/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/">Creating a docs site with Bulma Clean Theme</a>
             
             
                 <p><p>I created Bulma Clean Theme as a theme for my own website and decided to open source it so others could use it as well. One of the key things I wanted to do was to create a theme that worked with GitHub Pages, which also means that you can also use it as a docs site for your project.</p>
@@ -281,7 +283,7 @@
             
         </div>
         <div class="has-text-centered">
-            <a href="/aml/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/" class="button is-primary">Read more</a>
+            <a href="/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/" class="button is-primary">Read more</a>
         </div>
     </div>
     <footer class="card-footer">
@@ -300,7 +302,7 @@
     <div class="card-content">
         <div class="content">
             
-            <a class="title is-4" href="/aml/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/">Introducing some new layouts to Bulma Clean Theme</a>
+            <a class="title is-4" href="/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/">Introducing some new layouts to Bulma Clean Theme</a>
             
             
                 <p><p>I’ve been meaning to write about some of the new features I have been rolling out to my Jekyll theme, <a href="https://www.csrhymes.com/bulma-clean-theme/">Bulma Clean Theme</a>, for a while but I have only just managed to push the update for the landing page layout last weekend. This article provides some of the thinking behind the updates, as well as a brief introduction to how to get started.</p>
@@ -309,7 +311,7 @@
             
         </div>
         <div class="has-text-centered">
-            <a href="/aml/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/" class="button is-primary">Read more</a>
+            <a href="/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/" class="button is-primary">Read more</a>
         </div>
     </div>
     <footer class="card-footer">
@@ -335,25 +337,25 @@
         
         <div class="columns is-multiline">
             <figure class="image">
-                <a href="https://www.tech.cornell.edu"><img src="./img/cornell_brand_registered.svg"></a>
+                <a href="https://www.tech.cornell.edu"><img src="https://errrneist.github.io/img/aml/cornell_brand_registered.svg"></a>
             </figure>
 
             
             <div class="column has-text-centered">
                 <div>
-                    <a href="/aml/blog/" class="link">Blog</a>
+                    <a href="/blog/" class="link">Blog</a>
                 </div>
             </div>
             
             <div class="column has-text-centered">
                 <div>
-                    <a href="/aml/products/" class="link">Student Showcase</a>
+                    <a href="/products/" class="link">Student Showcase</a>
                 </div>
             </div>
             
             <div class="column has-text-centered">
                 <div>
-                    <a href="/aml/privacy-policy/" class="link">Special Thanks</a>
+                    <a href="/privacy-policy/" class="link">Special Thanks</a>
                 </div>
             </div>
             
@@ -368,5 +370,5 @@
 </footer>
 
     
-    <script src="/aml/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
 </html>
