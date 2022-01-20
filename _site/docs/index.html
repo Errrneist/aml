@@ -154,118 +154,51 @@
                     
                     
                     
-    
-    
-    <div class="columns is-multiline">
-        <div class="column is-12">
-            <p class="title is-3 has-text-centered">Instructors</p>
-        </div>
-        
-        <div class="column is-4-desktop is-6-tablet">
-            <div class="card">
-                <div class="card-image">
-                    <div x-data="{ open: false }">
-    <a @click="open = true" title="View large image">
-        <figure class="image is-4by3">
-            <img src="https://via.placeholder.com/400x300" alt="Volodymyr Kuleshov Image">
-        </figure>
-    </a>
-    <div class="modal" :class="{ 'is-active': open }">
-        <div class="modal-background" @click="open = false"></div>
-        <div class="modal-content">
-            
-                <img src="https://via.placeholder.com/1200x675" alt="Volodymyr Kuleshov Image">
-            
-        </div>
-        <button class="modal-close is-large" aria-label="close" @click="{ open = false }"></button>
-    </div>
-</div>
-
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        <h3 id="volodymyr-kuleshov">Volodymyr Kuleshov</h3>
-
-<p>The <em>image</em> <strong>description</strong> can be longer and written in markdown too.</p>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        
-        <div class="column is-4-desktop is-6-tablet">
-            <div class="card">
-                <div class="card-image">
-                    <div x-data="{ open: false }">
-    <a @click="open = true" title="View large image">
-        <figure class="image is-4by3">
-            <img src="https://via.placeholder.com/400x300" alt="Serge Belongie Image">
-        </figure>
-    </a>
-    <div class="modal" :class="{ 'is-active': open }">
-        <div class="modal-background" @click="open = false"></div>
-        <div class="modal-content">
-            
-                <img src="https://via.placeholder.com/1200x900" alt="Serge Belongie Image">
-            
-        </div>
-        <button class="modal-close is-large" aria-label="close" @click="{ open = false }"></button>
-    </div>
-</div>
-
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        <h3 id="serge-belongie">Serge Belongie</h3>
-
-<p>The <em>image</em> <strong>description</strong> can be longer and written in markdown too.</p>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        
-        <div class="column is-4-desktop is-6-tablet">
-            <div class="card">
-                <div class="card-image">
-                    <div x-data="{ open: false }">
-    <a @click="open = true" title="View large image">
-        <figure class="image is-4by3">
-            <img src="https://via.placeholder.com/400x300" alt="Nathan Kallus Image">
-        </figure>
-    </a>
-    <div class="modal" :class="{ 'is-active': open }">
-        <div class="modal-background" @click="open = false"></div>
-        <div class="modal-content">
-            
-                <img src="https://via.placeholder.com/1200x900" alt="Nathan Kallus Image">
-            
-        </div>
-        <button class="modal-close is-large" aria-label="close" @click="{ open = false }"></button>
-    </div>
-</div>
-
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        <h3 id="nathan-kallus">Nathan Kallus</h3>
-
-<p>The <em>image</em> <strong>description</strong> can be longer and written in markdown too.</p>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    
-
                     
 <div class="content">
-    <hr />
+    <div class="tile is-ancestor">
+  <div class="tile is-vertical">
+    <div class="tile">
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-primary">
+          <p class="title">Volodymyr<br />Kuleshov</p>
+          <p class="subtitle">2020 - 2022</p>
+          <figure class="image is-4by3">
+            <img style="border-radius: 2%;" src="https://bulma.io/images/placeholders/640x480.png" />
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-primary is-light">
+          <p class="title">Serge<br />Belongie</p>
+          <p class="subtitle">???? - 2019</p>
+          <figure class="image is-4by3">
+            <img style="border-radius: 2%;" src="https://bulma.io/images/placeholders/640x480.png" />
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-link is-light">
+          <p class="title">Nathan<br />Kallus</p>
+          <p class="subtitle">???? - ????</p>
+          <figure class="image is-4by3">
+            <img style="border-radius: 2%;" src="https://bulma.io/images/placeholders/640x480.png" />
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info is-light">
+          <p class="title">Other<br />Contributors</p>
+          <p>Lorem ipsum (Developer)</p>
+          <p>Lorem ipsum (Designer)</p>
+          <p>Lorem ipsum (RA)</p>
+          <p>Lorem ipsum (TA)</p>
+        </article>
+      </div>
+      
+    </div>
+</div>
+</div>
 
 <p><br /></p>
 

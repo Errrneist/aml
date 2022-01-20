@@ -13,8 +13,8 @@ hero_height: is-medium
         <article class="tile is-child notification is-primary">
           <p class="title">Volodymyr<br>Kuleshov</p>
           <p class="subtitle">2020 - 2022</p>
-          <figure class="image is-4by3">
-            <img style="border-radius: 2%;" src="https://bulma.io/images/placeholders/640x480.png">
+          <figure class="image is-1by1">
+            <img style="border-radius: 2%;" src="./img/Volodymyr-Kuleshov-headshot.jpg">
           </figure>
         </article>
       </div>
@@ -22,8 +22,8 @@ hero_height: is-medium
         <article class="tile is-child notification is-primary is-light">
           <p class="title">Serge<br>Belongie</p>
           <p class="subtitle">???? - 2019</p>
-          <figure class="image is-4by3">
-            <img style="border-radius: 2%;" src="https://bulma.io/images/placeholders/640x480.png">
+          <figure class="image is-1by1">
+            <img style="border-radius: 2%;" src="./img/Belongie_Serge_011hr5-1.jpg">
           </figure>
         </article>
       </div>
@@ -31,8 +31,8 @@ hero_height: is-medium
         <article class="tile is-child notification is-link is-light">
           <p class="title">Nathan<br>Kallus</p>
           <p class="subtitle">???? - ????</p>
-          <figure class="image is-4by3">
-            <img style="border-radius: 2%;" src="https://bulma.io/images/placeholders/640x480.png">
+          <figure class="image is-1by1">
+            <img style="border-radius: 2%;" src="./img/Nathan-Kallus-headshot-2.jpg">
           </figure>
         </article>
       </div>
