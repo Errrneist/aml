@@ -104,11 +104,26 @@
                     
                 
                     
-                    <a href="/showcase/" class="navbar-item ">Student Projects</a>
+                    <a href="/blog/" class="navbar-item ">Posts</a>
                     
                 
                     
-                    <a href="/blog/" class="navbar-item ">Posts</a>
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Student Projects</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/showcase/" class="navbar-item ">2021 (Kuleshov)</a>
+                            
+                            <a href="https://github.com/kuleshov/cornell-cs5785-2020-applied-ml" class="navbar-item ">2020 (Kuleshov)</a>
+                            
+                            <a href="https://cornelltech.github.io/cs5785-fall-2019/" class="navbar-item ">2019 (Belongie)</a>
+                            
+                            <a href="https://cornelltech.github.io/cs5785-fall-2018/index.html" class="navbar-item ">2018 (Belongie)</a>
+                            
+                            <a href="https://cornelltech.github.io/cs5785-fall-2017/index.html" class="navbar-item ">2017 (Belongie)</a>
+                            
+                        </div>
+                    </div>
                     
                 
                     
@@ -153,15 +168,18 @@
     -->
     <div class="hero-body ">
         <div class="container">
-            <h1 class="title is-2">CS 5787 - Applied Machine Learning</h1>
-            <p class="subtitle is-3">Lorem ipsum dolor sit amet.</p>
-            <br>
-            <div class="column is-4">
-                <figure class="image">
-                    <a href="https://www.tech.cornell.edu"><img src="https://errrneist.github.io/img/aml/cornell-tech-logo-optimized.png"></a>
-                </figure>
+            <div class = "columns">
+                <div class="column is-one-quarter">
+                    <figure class="image">
+                        <a href="https://www.tech.cornell.edu"><img src="https://errrneist.github.io/img/aml/cornell-tech-logo-optimized.png"></a>
+                    </figure>
+                </div>
+                <div class="column">
+                <h1 class="title is-2">CS 5787 - Applied Machine Learning</h1>
+                <p class="subtitle is-3">Lorem ipsum dolor sit amet.</p>
+                </div>
+                
             </div>
-            
         </div>
     </div>
 </section>
@@ -178,13 +196,128 @@
                     
                     
                     
+    
+    
+    <div class="columns is-multiline">
+        <div class="column is-12">
+            <p class="title is-3 has-text-centered">Instructors</p>
+        </div>
+        
+        <div class="column is-4-desktop is-6-tablet">
+            <div class="card">
+                <div class="card-image">
+                    <div x-data="{ open: false }">
+    <a @click="open = true" title="View large image">
+        <figure class="image is-4by3">
+            <img src="https://via.placeholder.com/400x300" alt="Volodymyr Kuleshov Image">
+        </figure>
+    </a>
+    <div class="modal" :class="{ 'is-active': open }">
+        <div class="modal-background" @click="open = false"></div>
+        <div class="modal-content">
+            
+                <img src="https://via.placeholder.com/1200x675" alt="Volodymyr Kuleshov Image">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" @click="{ open = false }"></button>
+    </div>
+</div>
+
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        <h3 id="volodymyr-kuleshov">Volodymyr Kuleshov</h3>
+
+<p>The <em>image</em> <strong>description</strong> can be longer and written in markdown too.</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-4-desktop is-6-tablet">
+            <div class="card">
+                <div class="card-image">
+                    <div x-data="{ open: false }">
+    <a @click="open = true" title="View large image">
+        <figure class="image is-4by3">
+            <img src="https://via.placeholder.com/400x300" alt="Serge Belongie Image">
+        </figure>
+    </a>
+    <div class="modal" :class="{ 'is-active': open }">
+        <div class="modal-background" @click="open = false"></div>
+        <div class="modal-content">
+            
+                <img src="https://via.placeholder.com/1200x900" alt="Serge Belongie Image">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" @click="{ open = false }"></button>
+    </div>
+</div>
+
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        <h3 id="serge-belongie">Serge Belongie</h3>
+
+<p>The <em>image</em> <strong>description</strong> can be longer and written in markdown too.</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="column is-4-desktop is-6-tablet">
+            <div class="card">
+                <div class="card-image">
+                    <div x-data="{ open: false }">
+    <a @click="open = true" title="View large image">
+        <figure class="image is-4by3">
+            <img src="https://via.placeholder.com/400x300" alt="Nathan Kallus Image">
+        </figure>
+    </a>
+    <div class="modal" :class="{ 'is-active': open }">
+        <div class="modal-background" @click="open = false"></div>
+        <div class="modal-content">
+            
+                <img src="https://via.placeholder.com/1200x900" alt="Nathan Kallus Image">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" @click="{ open = false }"></button>
+    </div>
+</div>
+
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        <h3 id="nathan-kallus">Nathan Kallus</h3>
+
+<p>The <em>image</em> <strong>description</strong> can be longer and written in markdown too.</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
                     
 <div class="content">
-    <div class="columns">
+    <hr />
+
+<p><br /></p>
+
+<div class="columns">
     <div class="column is-6">
         <h2>Lorem Ipsum</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <hr />
+        <br />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <br />
         <div class="columns">
         <div class="column is-4">
             <center><button class="button is-primary is-outlined">About</button></center>
@@ -212,7 +345,6 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="columns">
         <div class="column is-4">
-            <h3>Videos</h3>
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
@@ -235,14 +367,48 @@
             </div>
         </div>
         <div class="column is-4">
-            <h3>Lecture Notes</h3>
-            <button class="button is-link is-light">Lorem 1</button>
-            <button class="button is-link is-light">Lorem 2</button>
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Lecture Notes</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://www.cornell.edu" class="dropdown-item">
+                        Cornell
+                      </a>
+                      <a href="https://www.google.com" class="dropdown-item">
+                        Google
+                      </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="column is-4">
-            <h3>Additional Material</h3>
-            <button class="button is-info is-light">Lorem 1</button>
-            <button class="button is-info is-light">Lorem 2</button>
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Material</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://www.cornell.edu" class="dropdown-item">
+                        Cornell
+                      </a>
+                      <a href="https://www.google.com" class="dropdown-item">
+                        Google
+                      </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -4,17 +4,23 @@
     -->
     <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
         <div class="container">
-            <h1 class="title is-2">{{ page.title }}</h1>
-            <p class="subtitle is-3">{{ page.subtitle }}</p>
-            <br>
-            <div class="column is-3">
-                <figure class="image">
-                    <a href="https://www.tech.cornell.edu"><img src="https://errrneist.github.io/img/aml/cornell-tech-logo-optimized.png"></a>
-                </figure>
+            <div class = "columns">
+                <div class="column is-one-quarter">
+                    <figure class="image">
+                        <a href="https://www.tech.cornell.edu"><img src="https://errrneist.github.io/img/aml/cornell-tech-logo-optimized.png"></a>
+                    </figure>
+                </div>
+                <div class="column is-1">
+                    <h1 class="title is-2"> </h1>
+                </div>
+                <div class="column">
+                    <h1 class="title is-2">{{ page.title }}</h1>
+                    <p class="subtitle is-3">{{ page.subtitle }}</p>
+                </div>
+                {% if page.hero_link %}
+                    <a href="{{ page.hero_link | relative_url }}" class="button is-info is-large">{{ page.hero_link_text }}</a>
+                {% endif %}
             </div>
-            {% if page.hero_link %}
-                <a href="{{ page.hero_link | relative_url }}" class="button is-info is-large">{{ page.hero_link_text }}</a>
-            {% endif %}
         </div>
     </div>
 </section>
