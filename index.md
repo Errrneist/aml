@@ -4,10 +4,51 @@ subtitle: Lorem ipsum dolor sit amet.
 layout: page
 show_sidebar: false
 hero_height: is-medium
-gallery: authors_gallery
 ---
 
-***
+<div class="tile is-ancestor">
+  <div class="tile is-vertical">
+    <div class="tile">
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-primary">
+          <p class="title">Volodymyr<br>Kuleshov</p>
+          <p class="subtitle">2020 - 2022</p>
+          <figure class="image is-4by3">
+            <img style="border-radius: 2%;" src="https://bulma.io/images/placeholders/640x480.png">
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-primary is-light">
+          <p class="title">Serge<br>Belongie</p>
+          <p class="subtitle">???? - 2019</p>
+          <figure class="image is-4by3">
+            <img style="border-radius: 2%;" src="https://bulma.io/images/placeholders/640x480.png">
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-link is-light">
+          <p class="title">Nathan<br>Kallus</p>
+          <p class="subtitle">???? - ????</p>
+          <figure class="image is-4by3">
+            <img style="border-radius: 2%;" src="https://bulma.io/images/placeholders/640x480.png">
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info is-light">
+          <p class="title">Other<br>Contributors</p>
+          <p>Lorem ipsum (Developer)</p>
+          <p>Lorem ipsum (Designer)</p>
+          <p>Lorem ipsum (RA)</p>
+          <p>Lorem ipsum (TA)</p>
+        </article>
+      </div>
+      
+    </div>
+</div>
+</div>
 
 <br>
 
