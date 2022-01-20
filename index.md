@@ -4,12 +4,20 @@ subtitle: Lorem ipsum dolor sit amet.
 layout: page
 show_sidebar: false
 hero_height: is-medium
+gallery: authors_gallery
 ---
+
+***
+
+<br>
+
 <div class="columns">
     <div class="column is-6">
         <h2>Lorem Ipsum</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <hr>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <br>
         <div class = "columns">
         <div class="column is-4">
             <center><button class="button is-primary is-outlined">About</button></center>
@@ -27,8 +35,6 @@ hero_height: is-medium
     </div>
 </div>
 
-
-
 ***
 
 <div class="container">
@@ -36,7 +42,6 @@ hero_height: is-medium
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="columns">
         <div class="column is-4">
-            <h3>Videos</h3>
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
@@ -59,14 +64,48 @@ hero_height: is-medium
             </div>
         </div>
         <div class="column is-4">
-            <h3>Lecture Notes</h3>
-            <button class="button is-link is-light">Lorem 1</button>
-            <button class="button is-link is-light">Lorem 2</button>
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Lecture Notes</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://www.cornell.edu" class="dropdown-item">
+                        Cornell
+                      </a>
+                      <a href="https://www.google.com" class="dropdown-item">
+                        Google
+                      </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="column is-4">
-            <h3>Additional Material</h3>
-            <button class="button is-info is-light">Lorem 1</button>
-            <button class="button is-info is-light">Lorem 2</button>
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Material</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://www.cornell.edu" class="dropdown-item">
+                        Cornell
+                      </a>
+                      <a href="https://www.google.com" class="dropdown-item">
+                        Google
+                      </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

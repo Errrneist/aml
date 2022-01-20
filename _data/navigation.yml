@@ -31,10 +31,21 @@
       link: /example-recipe/
 - name: Topics
   link: /products/
-- name: Student Projects
-  link: /showcase/
 - name: Posts
   link: /blog/
+- name: Student Projects
+  link: /#
+  dropdown:
+    - name: 2021 (Kuleshov)
+      link: /showcase/
+    - name: 2020 (Kuleshov)
+      link: https://github.com/kuleshov/cornell-cs5785-2020-applied-ml
+    - name: 2019 (Belongie)
+      link: https://cornelltech.github.io/cs5785-fall-2019/
+    - name: 2018 (Belongie)
+      link: https://cornelltech.github.io/cs5785-fall-2018/index.html
+    - name: 2017 (Belongie)
+      link: https://cornelltech.github.io/cs5785-fall-2017/index.html
 - name: Past Offerings
   link: /#
   dropdown:
