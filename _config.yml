@@ -10,7 +10,7 @@ siteurl: ""
 url: ""
 permalink: pretty
 # favicon: "/img/favicon.png"
-gh_sponsor: hongjunwu
+# gh_sponsor: hongjunwu
 #hide_share_buttons: true
 theme_color: "#b31b1b"
 #fixed_navbar: top
