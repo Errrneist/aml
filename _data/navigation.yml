@@ -2,15 +2,10 @@
   link: /#
   dropdown:
     - name: 2021
-      link: /showcase/
+      link: /showcase/showcase_2021/
     - name: 2020
-      link: https://github.com/kuleshov/cornell-cs5785-2020-applied-ml
-    - name: 2019
-      link: https://cornelltech.github.io/cs5785-fall-2019/
-    - name: 2018
-      link: https://cornelltech.github.io/cs5785-fall-2018/index.html
-    - name: 2017
-      link: https://cornelltech.github.io/cs5785-fall-2017/index.html
+      link: /showcase/showcase_2020/
+
 - name: Past Offerings
   link: /#
   dropdown:
