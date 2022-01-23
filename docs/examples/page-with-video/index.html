@@ -25,19 +25,19 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Page Without Hero | Applied Machine Learning</title>
+<title>Page With Video | Applied Machine Learning</title>
 <meta name="generator" content="Jekyll v3.9.1" />
-<meta property="og:title" content="Page Without Hero" />
+<meta property="og:title" content="Page With Video" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="This is a page with no hero" />
-<meta property="og:description" content="This is a page with no hero" />
-<link rel="canonical" href="/page-without-hero/" />
-<meta property="og:url" content="/page-without-hero/" />
+<meta name="description" content="A page with an embedded YouTube video" />
+<meta property="og:description" content="A page with an embedded YouTube video" />
+<link rel="canonical" href="/examples/page-with-video/" />
+<meta property="og:url" content="/examples/page-with-video/" />
 <meta property="og:site_name" content="Applied Machine Learning" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Page Without Hero" />
+<meta property="twitter:title" content="Page With Video" />
 <script type="application/ld+json">
-{"url":"/page-without-hero/","headline":"Page Without Hero","@type":"WebPage","description":"This is a page with no hero","@context":"https://schema.org"}</script>
+{"url":"/examples/page-with-video/","headline":"Page With Video","@type":"WebPage","description":"A page with an embedded YouTube video","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <!-- head scripts --></head>
 
@@ -106,6 +106,31 @@
 </nav>
 
     
+        <section class="hero  is-medium  is-bold is-primary"  style="background: url('https://errrneist.github.io/img/aml/hero_image_tinted.png') no-repeat center center; background-size: cover;" >
+    <!--
+        <section class="hero  is-medium  is-bold is-primary" >
+    -->
+    <div class="hero-body ">
+        <div class="container">
+            <div class = "columns">
+                <div class="column is-one-quarter">
+                    <figure class="image">
+                        <a href="https://www.tech.cornell.edu"><img src="https://errrneist.github.io/img/aml/cornell-tech-logo-optimized.png"></a>
+                    </figure>
+                </div>
+                <div class="column is-1">
+                    <h1 class="title is-2"> </h1>
+                </div>
+                <div class="column">
+                    <h1 class="title is-2">Page With Video</h1>
+                    <p class="subtitle is-3"></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+    
     
 
 
@@ -141,7 +166,7 @@
                 
                 <li><a href="/page-5/" class="">Page Without Footer</a></li>
                 
-                <li><a href="/page-without-hero/" class="is-active">Page Without Hero</a></li>
+                <li><a href="/page-without-hero/" class="">Page Without Hero</a></li>
                 
                 <li><a href="/page-with-contents/" class="">Page With Contents</a></li>
                 
@@ -180,13 +205,28 @@
                     
                     
 <div class="content">
-    <h1 id="page-without-hero">Page Without Hero</h1>
+    <p>This is an example page with an embedded YouTube video.</p>
 
-<p>This is a page without a hero.</p>
+<figure class="image is-16by9"> 
+    <iframe class="has-ratio" src="https://www.youtube.com/embed/iRuJufELrWo?start=0&amp;showinfo=0" frameborder="0" allowfullscreen="">
+    </iframe>
+</figure>
 
-<p>To hide the hero, set <code class="language-plaintext highlighter-rouge">hide_hero: true</code> in the page’s frontmatter.</p>
+<p>To embed the video, use an include where you want the video to appear and then pass in the YouTube id as the video variable.</p>
 
-<p>Hiding the hero means that there will not be a title and subtitle displayed, so it will have to be added to the page content.</p>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>youtube.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<p>You can optionally include a start time in seconds. This works the same as the ?t= parameter in Youtube URLs.</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>youtube.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="na">time</span><span class="o">=</span><span class="mi">210</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<p>It is also possible to embed Vimeo videos in a similar way</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>vimeo.html<span class="w"> </span><span class="na">video</span><span class="o">=</span><span class="s2">"videoid"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
 
 </div>
                 </div>

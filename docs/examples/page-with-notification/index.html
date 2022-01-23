@@ -25,19 +25,19 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Deep Probabilistic and Generative Models | Applied Machine Learning</title>
+<title>Page With Notifications | Applied Machine Learning</title>
 <meta name="generator" content="Jekyll v3.9.1" />
-<meta property="og:title" content="Deep Probabilistic and Generative Models" />
+<meta property="og:title" content="Page With Notifications" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="The site for Cornell Tech’s Applied Machine Learning." />
 <meta property="og:description" content="The site for Cornell Tech’s Applied Machine Learning." />
-<link rel="canonical" href="/index_bkup.bak" />
-<meta property="og:url" content="/index_bkup.bak" />
+<link rel="canonical" href="/examples/page-with-notification/" />
+<meta property="og:url" content="/examples/page-with-notification/" />
 <meta property="og:site_name" content="Applied Machine Learning" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Deep Probabilistic and Generative Models" />
+<meta property="twitter:title" content="Page With Notifications" />
 <script type="application/ld+json">
-{"url":"/index_bkup.bak","headline":"Deep Probabilistic and Generative Models","@type":"WebPage","description":"The site for Cornell Tech’s Applied Machine Learning.","@context":"https://schema.org"}</script>
+{"url":"/examples/page-with-notification/","headline":"Page With Notifications","@type":"WebPage","description":"The site for Cornell Tech’s Applied Machine Learning.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <!-- head scripts --></head>
 
@@ -106,9 +106,9 @@
 </nav>
 
     
-        <section class="hero  is-large  is-bold is-primary"  style="background: url('https://errrneist.github.io/img/aml/hero_image_tinted.png') no-repeat center center; background-size: cover;" >
+        <section class="hero  is-medium  is-bold is-primary"  style="background: url('https://errrneist.github.io/img/aml/hero_image_tinted.png') no-repeat center center; background-size: cover;" >
     <!--
-        <section class="hero  is-large  is-bold is-primary" >
+        <section class="hero  is-medium  is-bold is-primary" >
     -->
     <div class="hero-body ">
         <div class="container">
@@ -122,11 +122,9 @@
                     <h1 class="title is-2"> </h1>
                 </div>
                 <div class="column">
-                    <h1 class="title is-2">Deep Probabilistic and Generative Models</h1>
-                    <p class="subtitle is-3">An advanced topic in machine learning.</p>
+                    <h1 class="title is-2">Page With Notifications</h1>
+                    <p class="subtitle is-3"></p>
                 </div>
-                
-                    <a href="/page-1/" class="button is-info is-large">Example Call To Action</a>
                 
             </div>
         </div>
@@ -134,65 +132,6 @@
 </section>
     
     
-    
-    <section class="hero  is-medium  is-light">
-        <div class="hero-body">
-            <div class="container">
-                <div class="columns is-multiline is-centered">
-                    
-                        <div class="column is-4 has-text-centered">
-                            
-                            <div class="icon callout-icon">
-                            
-                                <i class="fas fa-copy fa-4x"></i>
-                            
-                            </div>
-                            
-                            <p class="title is-5">Multiple page layouts</p>
-                            <p class="subtitle is-5">Including sidebar, menubar, tabs and callouts</p>
-                            
-                            
-
-                            
-                        </div>
-                    
-                        <div class="column is-4 has-text-centered">
-                            
-                            <div class="icon callout-icon">
-                            
-                                <i class="fas fa-mail-bulk fa-4x"></i>
-                            
-                            </div>
-                            
-                            <p class="title is-5">Blog included</p>
-                            <p class="subtitle is-5">Layouts for blog and post pages included</p>
-                            
-                            
-
-                            
-                        </div>
-                    
-                        <div class="column is-4 has-text-centered">
-                            
-                            <div class="icon callout-icon">
-                            
-                                <i class="fab fa-github fa-4x"></i>
-                            
-                            </div>
-                            
-                            <p class="title is-5">Works with GitHub Pages</p>
-                            <p class="subtitle is-5">Quick and easy to get started</p>
-                            
-                            
-
-                            
-                        </div>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
 
 
     <section class="section">
@@ -206,53 +145,142 @@
                     
                     
 <div class="content">
-    # Bulma Clean Theme demo website
+    <p>This page shows how you can add <a href="https://bulma.io/documentation/elements/notification/">Bulma notifications</a>.</p>
 
-This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
+<div x-data="{visible: true}">
+    <div class="notification is-warning" x-show.transition.duration.300ms="visible">
+        
+        <article class="media">
+            
+                <div class="media-left">
+                    <span class="icon"><i class="fas fa-exclamation-circle fa-lg"></i></span>
+                </div>
+            
+            <div class="media-content">
+                <div class="content"><p>This is the message for the notification</p>
+</div>
+            </div>
+        </article>
+    </div>
+</div>
 
-[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
-![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
+<p>Use the following code to include a simple notification.</p>
 
-## Ruby Gem
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w"> </span><span class="na">message</span><span class="o">=</span><span class="s2">"This is the message for the notification"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
 
-The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
+<h2 id="overriding-defaults">Overriding Defaults</h2>
 
-## GitHub Pages
+<p>The message is required but the status defaults to ‘is-warning’ and the icon defaults to ‘fas fa-exclamation-circle’, but can be overwritten by setting the values in the includes.</p>
 
-The theme can be used with GitHub Pages by setting the `remote_theme` in your Jekyll sites `_config.yml`
+<div x-data="{visible: true}">
+    <div class="notification is-danger" x-show.transition.duration.300ms="visible">
+        
+        <article class="media">
+            
+            <div class="media-content">
+                <div class="content"><p>This is the message for the notification</p>
+</div>
+            </div>
+        </article>
+    </div>
+</div>
 
-```yml
-remote_theme: chrisrhymes/bulma-clean-theme
-```
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w"> </span><span class="na">message</span><span class="o">=</span><span class="s2">"This is the message for the notification"</span><span class="w"> </span><span class="err">
+</span><span class="na">status</span><span class="o">=</span><span class="s2">"is-danger"</span><span class="w"> </span><span class="err">
+</span><span class="na">icon</span><span class="o">=</span><span class="s2">"fas fa-exclamation-triangle"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
 
-## Instructions
+<h2 id="markdown-message">Markdown message</h2>
 
-For full instructions, please see the Readme at the GitHub repo:
-[https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md](https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md)
+<p>The notification message can also be written in markdown.</p>
 
-## Page Layouts
+<div x-data="{visible: true}">
+    <div class="notification is-warning" x-show.transition.duration.300ms="visible">
+        
+        <article class="media">
+            
+                <div class="media-left">
+                    <span class="icon"><i class="fas fa-exclamation-circle fa-lg"></i></span>
+                </div>
+            
+            <div class="media-content">
+                <div class="content"><p>This <strong>message</strong> contains <em>markdown</em> and a <a href="https://www.csrhymes.com">link</a>.</p>
 
-This demo site showcases the available page layout options.
+<p>It also contains a second paragraph and a list.</p>
 
-* Page With Sidebar
-* Page Without Sidebar
-* Page With Menubar
-* Page With Tabs
-* Page Without Footer
-* Page Without Hero
-* Page With Contents
-* Landing Page With Callouts
-* Sponsors Page
-* Image Gallery
-* Recipe Page
-* Blog
-* Post
+<ul>
+  <li>List item</li>
+  <li>List item</li>
+</ul>
+</div>
+            </div>
+        </article>
+    </div>
+</div>
 
-## Supported By JetBrains
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="w"> </span><span class="err">
+</span><span class="na">message</span><span class="o">=</span><span class="s2">"This **message** contains _markdown_ and a [link](https://www.csrhymes.com).
 
-JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
+It also contains a second paragraph.
 
-[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
+* List item
+* List item
+"</span><span class="w">  </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<h2 id="dismissible-notifications">Dismissible Notifications</h2>
+
+<p>To set a notification to be dismissible, set dismissible to ‘true’</p>
+
+<div x-data="{visible: true}">
+    <div class="notification is-info" x-show.transition.duration.300ms="visible">
+        
+            <button class="delete" x-on:click="visible = false"></button>
+        
+        <article class="media">
+            
+                <div class="media-left">
+                    <span class="icon"><i class="fas fa-exclamation-circle fa-lg"></i></span>
+                </div>
+            
+            <div class="media-content">
+                <div class="content"><p>This notification is dismissable</p>
+</div>
+            </div>
+        </article>
+    </div>
+</div>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="err">
+</span><span class="na">message</span><span class="o">=</span><span class="s2">"This notification is dismissable"</span><span class="err">
+</span><span class="na">status</span><span class="o">=</span><span class="s2">"is-info"</span><span class="err">
+</span><span class="na">dismissable</span><span class="o">=</span><span class="s2">"true"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<h2 id="iconless-notifications">Iconless Notifications</h2>
+
+<p>Omit the icon by setting icon to ‘false’</p>
+
+<div x-data="{visible: true}">
+    <div class="notification is-success" x-show.transition.duration.300ms="visible">
+        
+        <article class="media">
+            
+            <div class="media-content">
+                <div class="content"><p>This notification does not have an icon.</p>
+</div>
+            </div>
+        </article>
+    </div>
+</div>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>notification.html<span class="err">
+</span><span class="na">message</span><span class="o">=</span><span class="s2">"This notification does not have an icon."</span><span class="err">
+</span><span class="na">icon</span><span class="o">=</span><span class="s2">"false"</span><span class="err">
+</span><span class="na">status</span><span class="o">=</span><span class="s2">"is-success"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
 
 </div>
                 </div>
