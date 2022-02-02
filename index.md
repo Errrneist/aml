@@ -6,51 +6,91 @@ show_sidebar: false
 hero_height: is-medium
 ---
 
-<div class="tile is-ancestor">
-  <div class="tile is-vertical">
-    <div class="tile">
-      <div class="tile is-parent">
-        <article class="tile is-child notification is-primary">
-          <p class="title">Volodymyr<br>Kuleshov</p>
-          <p class="subtitle">2020 - 2022</p>
-          <figure class="image is-1by1">
-            <img style="border-radius: 2%;" src="img/volodymyr_kuleshov.jpg">
-          </figure>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child notification is-primary is-light">
-          <p class="title">Serge<br>Belongie</p>
-          <p class="subtitle">0000 - 2019</p>
-          <figure class="image is-1by1">
-            <img style="border-radius: 2%;" src="img/serge_belongie.jpg">
-          </figure>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child notification is-link is-light">
-          <p class="title">Nathan<br>Kallus</p>
-          <p class="subtitle">0000 - 0000</p>
-          <figure class="image is-1by1">
-            <img style="border-radius: 2%;" src="img/nathan_kallus.jpg">
-          </figure>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child notification is-info is-light">
-          <p class="title">Other<br>Contributors</p>
-          <p><strong>Lorem ipsum</strong></p>
-          <p><strong>Dolor Sit</strong></p>
-          <p><strong>Adipiscing Elit</strong></p>
-          <p><strong>Sed Do Eiusmod</strong></p>
-        </article>
-      </div>
-      
-    </div>
-</div>
-</div>
+[comment]: <> (<div class="tile is-ancestor">)
 
-<br>
+[comment]: <> (  <div class="tile is-vertical">)
+
+[comment]: <> (    <div class="tile">)
+
+[comment]: <> (      <div class="tile is-parent">)
+
+[comment]: <> (        <article class="tile is-child notification is-primary">)
+
+[comment]: <> (          <p class="title">Volodymyr<br>Kuleshov</p>)
+
+[comment]: <> (          <p class="subtitle">2020 - 2022</p>)
+
+[comment]: <> (          <figure class="image is-1by1">)
+
+[comment]: <> (            <img style="border-radius: 2%;" src="img/volodymyr_kuleshov.jpg">)
+
+[comment]: <> (          </figure>)
+
+[comment]: <> (        </article>)
+
+[comment]: <> (      </div>)
+
+[comment]: <> (      <div class="tile is-parent">)
+
+[comment]: <> (        <article class="tile is-child notification is-primary is-light">)
+
+[comment]: <> (          <p class="title">Serge<br>Belongie</p>)
+
+[comment]: <> (          <p class="subtitle">0000 - 2019</p>)
+
+[comment]: <> (          <figure class="image is-1by1">)
+
+[comment]: <> (            <img style="border-radius: 2%;" src="img/serge_belongie.jpg">)
+
+[comment]: <> (          </figure>)
+
+[comment]: <> (        </article>)
+
+[comment]: <> (      </div>)
+
+[comment]: <> (      <div class="tile is-parent">)
+
+[comment]: <> (        <article class="tile is-child notification is-link is-light">)
+
+[comment]: <> (          <p class="title">Nathan<br>Kallus</p>)
+
+[comment]: <> (          <p class="subtitle">0000 - 0000</p>)
+
+[comment]: <> (          <figure class="image is-1by1">)
+
+[comment]: <> (            <img style="border-radius: 2%;" src="img/nathan_kallus.jpg">)
+
+[comment]: <> (          </figure>)
+
+[comment]: <> (        </article>)
+
+[comment]: <> (      </div>)
+
+[comment]: <> (      <div class="tile is-parent">)
+
+[comment]: <> (        <article class="tile is-child notification is-info is-light">)
+
+[comment]: <> (          <p class="title">Other<br>Contributors</p>)
+
+[comment]: <> (          <p><strong>Lorem ipsum</strong></p>)
+
+[comment]: <> (          <p><strong>Dolor Sit</strong></p>)
+
+[comment]: <> (          <p><strong>Adipiscing Elit</strong></p>)
+
+[comment]: <> (          <p><strong>Sed Do Eiusmod</strong></p>)
+
+[comment]: <> (        </article>)
+
+[comment]: <> (      </div>)
+      
+[comment]: <> (    </div>)
+
+[comment]: <> (</div>)
+
+[comment]: <> (</div>)
+
+[comment]: <> (<br>)
 
 <div class="columns">
     <div class="column is-6">
@@ -78,18 +118,21 @@ hero_height: is-medium
 
 ***
 
-<div class="columns is-vcentered">
+<div class="columns is-centered is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
     <div class="column">
-        <p class="bd-notification is-primary">First column</p>
+        <figure class="image is-128x128" style="display:block; margin: auto;"><img style="border-radius: 50%;" src="img/volodymyr_kuleshov.jpg"></figure>
+        <h3 style="text-align:center">Volodymyr<br>Kuleshov</h3>
+        <p class="subtitle" style="text-align:center">2020 - 2022</p>
     </div>
     <div class="column">
-        <p class="bd-notification is-primary">Second column with more content. This is so you can see the vertical alignment.</p>
+        <figure class="image is-128x128" style="display:block; margin: auto;"><img style="border-radius: 50%;" src="img/nathan_kallus.jpg"></figure>
+        <h3 style="text-align:center">Nathan<br>Kallus</h3>
+        <p class="subtitle" style="text-align:center">2020 - 2022</p>
     </div>
     <div class="column">
-        <p class="bd-notification is-primary">First column</p>
-    </div>
-    <div class="column">
-        <p class="bd-notification is-primary">Second column with more content. This is so you can see the vertical alignment.</p>
+        <figure class="image is-128x128" style="display:block; margin: auto;"><img style="border-radius: 50%;" src="img/serge_belongie.jpg"></figure>
+        <h3 style="text-align:center">Serge<br>Belongie</h3>
+        <p class="subtitle" style="text-align:center">2020 - 2022</p>
     </div>
 </div>
 
