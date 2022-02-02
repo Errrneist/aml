@@ -119,20 +119,25 @@ hero_height: is-medium
 ***
 
 <div class="columns is-centered is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
-    <div class="column">
+    <div class="column is-one-fifth">
         <figure class="image is-128x128" style="display:block; margin: auto;"><img style="border-radius: 50%;" src="img/volodymyr_kuleshov.jpg"></figure>
         <h3 style="text-align:center">Volodymyr<br>Kuleshov</h3>
-        <p class="subtitle" style="text-align:center">2020 - 2022</p>
+        <p class="subtitle" style="text-align:center">Instructor</p>
     </div>
-    <div class="column">
+    <div class="column is-one-fifth">
         <figure class="image is-128x128" style="display:block; margin: auto;"><img style="border-radius: 50%;" src="img/nathan_kallus.jpg"></figure>
         <h3 style="text-align:center">Nathan<br>Kallus</h3>
-        <p class="subtitle" style="text-align:center">2020 - 2022</p>
+        <p class="subtitle" style="text-align:center">Instructor</p>
     </div>
-    <div class="column">
+    <div class="column is-one-fifth">
         <figure class="image is-128x128" style="display:block; margin: auto;"><img style="border-radius: 50%;" src="img/serge_belongie.jpg"></figure>
         <h3 style="text-align:center">Serge<br>Belongie</h3>
-        <p class="subtitle" style="text-align:center">2020 - 2022</p>
+        <p class="subtitle" style="text-align:center">Instructor</p>
+    </div>
+    <div class="column">
+        <p><strong>Volodymyr Kuleshov</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p><strong>Nathan Kallus</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p><strong>Serge Belongie</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
 </div>
 
