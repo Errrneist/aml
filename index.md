@@ -135,6 +135,7 @@ hero_height: is-medium
         <p class="subtitle" style="text-align:center">Instructor</p>
     </div>
     <div class="column">
+        <h3>Instructors</h3>
         <p><strong>Volodymyr Kuleshov</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <p><strong>Nathan Kallus</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <p><strong>Serge Belongie</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
