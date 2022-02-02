@@ -1,5 +1,5 @@
 ---
-title: CS 5787 - Applied Machine Learning
+title: CS 5785 - Applied Machine Learning
 subtitle: Lorem ipsum dolor sit amet.
 layout: page
 show_sidebar: false
