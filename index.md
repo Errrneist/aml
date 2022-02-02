@@ -78,6 +78,23 @@ hero_height: is-medium
 
 ***
 
+<div class="columns is-vcentered">
+    <div class="column">
+        <p class="bd-notification is-primary">First column</p>
+    </div>
+    <div class="column">
+        <p class="bd-notification is-primary">Second column with more content. This is so you can see the vertical alignment.</p>
+    </div>
+    <div class="column">
+        <p class="bd-notification is-primary">First column</p>
+    </div>
+    <div class="column">
+        <p class="bd-notification is-primary">Second column with more content. This is so you can see the vertical alignment.</p>
+    </div>
+</div>
+
+***
+
 <div class="container">
     <h2>Chapter 1: Lorem ipsum.</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

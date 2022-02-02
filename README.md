@@ -13,6 +13,8 @@ To install the dependencies, navigate to the theme directory and run `bundle ins
 
 To test locally, `bundle exec jekyll serve`.
 
+If ask for Unable to load the EventMachine C extension, run `gem install eventmachine --platform ruby`.
+
 To build for Github Pages, run `bundle exec jekyll build --destination docs/`.
 
 To un-commit, a change, run `git reset --soft HEAD~1`.
