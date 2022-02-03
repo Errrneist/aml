@@ -145,14 +145,14 @@ hero_height: is-medium
 ***
 
 <div class="container">
-    <h2>Chapter 1: Lorem ipsum.</h2>
+    <h2>Lecture 1: Introduction.</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="columns">
         <div class="column">
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Lecture Video</span>
+                      <span>Lecture Videos</span>
                       <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
                       </span>
@@ -160,12 +160,18 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="https://www.cornell.edu" class="dropdown-item">
-                        Cornell
-                      </a>
-                      <a href="https://www.google.com" class="dropdown-item">
-                        Google
-                      </a>
+                        <a href="https://youtu.be/vcE9WGbi4QY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            1.1 - Introduction to Machine Learning
+                        </a>
+                        <a href="https://youtu.be/chfwJiXvBMA" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            1.2 - Three Approaches to Machine Learning
+                        </a>
+                        <a href="https://youtu.be/51p6lLKiv2E" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            1.3 - About the Course
+                        </a>    
+                        <a href="https://youtu.be/mKhGXSaQk_s" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            1.4 - Logistics and Other Information
+                        </a>  
                     </div>
                 </div>
             </div>
@@ -182,108 +188,11 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="https://www.cornell.edu" class="dropdown-item">
-                        Cornell
+                      <a href="./slides/introduction/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Live View
                       </a>
                       <a href="https://www.google.com" class="dropdown-item">
-                        Google
-                      </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <div class="dropdown">
-                <div class="dropdown-trigger">
-                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Interactive Notes</span>
-                      <span class="icon is-small">
-                        <i class="fas fa-angle-down" aria-hidden="true"></i>
-                      </span>
-                    </button>
-                </div>
-                <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                    <div class="dropdown-content">
-                      <a href="https://www.cornell.edu" class="dropdown-item">
-                        Cornell
-                      </a>
-                      <a href="https://www.google.com" class="dropdown-item">
-                        Google
-                      </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <div class="dropdown">
-                <div class="dropdown-trigger">
-                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Additional Material</span>
-                      <span class="icon is-small">
-                        <i class="fas fa-angle-down" aria-hidden="true"></i>
-                      </span>
-                    </button>
-                </div>
-                <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                    <div class="dropdown-content">
-                      <a href="https://www.cornell.edu" class="dropdown-item">
-                        Cornell
-                      </a>
-                      <a href="https://www.google.com" class="dropdown-item">
-                        Google
-                      </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-***
-
-<div class="container">
-    <h2>Chapter 1: Lorem ipsum.</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <div class="columns">
-        <div class="column">
-            <div class="dropdown">
-                <div class="dropdown-trigger">
-                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Lecture Video</span>
-                      <span class="icon is-small">
-                        <i class="fas fa-angle-down" aria-hidden="true"></i>
-                      </span>
-                    </button>
-                </div>
-                <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                    <div class="dropdown-content">
-                      <a href="https://www.cornell.edu" class="dropdown-item">
-                        Cornell
-                      </a>
-                      <a href="https://www.google.com" class="dropdown-item">
-                        Google
-                      </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <div class="dropdown">
-                <div class="dropdown-trigger">
-                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Lecture Slides</span>
-                      <span class="icon is-small">
-                        <i class="fas fa-angle-down" aria-hidden="true"></i>
-                      </span>
-                    </button>
-                </div>
-                <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                    <div class="dropdown-content">
-                      <a href="https://www.cornell.edu" class="dropdown-item">
-                        Cornell
-                      </a>
-                      <a href="https://www.google.com" class="dropdown-item">
-                        Google
+                        PDF
                       </a>
                     </div>
                 </div>
