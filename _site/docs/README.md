@@ -7,6 +7,6 @@ To test locally, `bundle exec jekyll serve`.
 
 To build for Github Pages, run `bundle exec jekyll build --destination docs/`.
 
-To un-commit, a change, run `git reset --soft HEAD~1`.
+To un-commit due to file over 100MB and unable to push, run `git reset --soft HEAD~1`.
 
 To go back to root, use `cd ../../..`.

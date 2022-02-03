@@ -148,11 +148,11 @@ hero_height: is-medium
     <h2>Chapter 1: Lorem ipsum.</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="columns">
-        <div class="column is-4">
+        <div class="column">
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Video Button</span>
+                      <span>Lecture Video</span>
                       <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
                       </span>
@@ -170,11 +170,33 @@ hero_height: is-medium
                 </div>
             </div>
         </div>
-        <div class="column is-4">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Lecture Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://www.cornell.edu" class="dropdown-item">
+                        Cornell
+                      </a>
+                      <a href="https://www.google.com" class="dropdown-item">
+                        Google
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Lecture Notes</span>
+                      <span>Interactive Notes</span>
                       <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
                       </span>
@@ -192,7 +214,7 @@ hero_height: is-medium
                 </div>
             </div>
         </div>
-        <div class="column is-4">
+        <div class="column">
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
@@ -220,14 +242,14 @@ hero_height: is-medium
 ***
 
 <div class="container">
-    <h2>Chapter 2: Lorem ipsum.</h2>
+    <h2>Chapter 1: Lorem ipsum.</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="columns">
-        <div class="column is-4">
+        <div class="column">
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Video Button</span>
+                      <span>Lecture Video</span>
                       <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
                       </span>
@@ -245,11 +267,33 @@ hero_height: is-medium
                 </div>
             </div>
         </div>
-        <div class="column is-4">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Lecture Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://www.cornell.edu" class="dropdown-item">
+                        Cornell
+                      </a>
+                      <a href="https://www.google.com" class="dropdown-item">
+                        Google
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Lecture Notes</span>
+                      <span>Interactive Notes</span>
                       <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
                       </span>
@@ -267,7 +311,7 @@ hero_height: is-medium
                 </div>
             </div>
         </div>
-        <div class="column is-4">
+        <div class="column">
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
