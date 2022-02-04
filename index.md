@@ -152,7 +152,7 @@ hero_height: is-medium
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Lecture Videos</span>
+                      <span>Videos</span>
                       <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
                       </span>
@@ -180,7 +180,7 @@ hero_height: is-medium
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Lecture Slides</span>
+                      <span>Slides</span>
                       <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
                       </span>
@@ -188,11 +188,11 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
-                        Presentation
+                      <a href="./slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Chapter 1 - Slides (HTML)
                       </a>
-                      <a href="https://drive.google.com/file/d/1iY_r47rWGVlIElatg3uBAl311rGvCliQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="dropdown-item">
-                        PDF
+                      <a href="./slides_pdf/lecture1-introduction_slides_pdf.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Chapter 1 - Slides (PDF)
                       </a>
                     </div>
                 </div>
@@ -202,7 +202,26 @@ hero_height: is-medium
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Interactive Notes</span>
+                      <span>Notes</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./notes_html/lecture1-introduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Chapter 1 - Notes (HTML)
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Code</span>
                       <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
                       </span>
@@ -211,7 +230,7 @@ hero_height: is-medium
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/1hn7FAmInYDPaCZUYoAvpqf3H0OFIEYRJ/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Colaboratory Notebook
+                        Chapter 1 - Colab Notebook
                       </a>
                     </div>
                 </div>
@@ -221,7 +240,7 @@ hero_height: is-medium
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Additional Material</span>
+                      <span>Additional Materials</span>
                       <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
                       </span>
