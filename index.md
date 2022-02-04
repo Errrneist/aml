@@ -146,7 +146,7 @@ hero_height: is-medium
 
 <div class="container">
     <h2>Lecture 1: Introduction.</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>A brief intro on what is machine learning, what are the most important techniques in ML, and how to apply them to solve problems in the real world.</p>
     <div class="columns">
         <div class="column">
             <div class="dropdown">
@@ -210,11 +210,8 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="https://www.cornell.edu" class="dropdown-item">
-                        Cornell
-                      </a>
-                      <a href="https://www.google.com" class="dropdown-item">
-                        Google
+                      <a href="https://drive.google.com/file/d/1hn7FAmInYDPaCZUYoAvpqf3H0OFIEYRJ/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Colaboratory Notebook
                       </a>
                     </div>
                 </div>
@@ -232,11 +229,8 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="https://www.cornell.edu" class="dropdown-item">
-                        Cornell
-                      </a>
-                      <a href="https://www.google.com" class="dropdown-item">
-                        Google
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        The Elements of Statistic Learning - Chapter 1
                       </a>
                     </div>
                 </div>
