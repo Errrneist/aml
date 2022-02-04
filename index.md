@@ -188,10 +188,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="./slides/slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Chapter 1 - Slides (HTML)
                       </a>
-                      <a href="./slides_pdf/lecture1-introduction_slides_pdf.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="./slides/slides_pdf/lecture1-introduction_slides_pdf.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Chapter 1 - Slides (PDF)
                       </a>
                     </div>
@@ -210,7 +210,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes_html/lecture1-introduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="./notes/notes_html/lecture1-introduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Chapter 1 - Notes (HTML)
                       </a>
                     </div>
@@ -231,6 +231,11 @@ hero_height: is-medium
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/1hn7FAmInYDPaCZUYoAvpqf3H0OFIEYRJ/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Chapter 1 - Colab Notebook
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_ipynb/lecture1-introduction.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Chapter 1 - iPython Notebook
                       </a>
                     </div>
                 </div>
