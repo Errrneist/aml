@@ -188,8 +188,8 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/introduction/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
-                        Live View
+                      <a href="./slides/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Presentation
                       </a>
                       <a href="https://drive.google.com/file/d/1iY_r47rWGVlIElatg3uBAl311rGvCliQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         PDF
