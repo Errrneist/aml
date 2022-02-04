@@ -191,7 +191,7 @@ hero_height: is-medium
                       <a href="./slides/introduction/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Live View
                       </a>
-                      <a href="https://www.google.com" class="dropdown-item">
+                      <a href="https://drive.google.com/file/d/1iY_r47rWGVlIElatg3uBAl311rGvCliQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         PDF
                       </a>
                     </div>
