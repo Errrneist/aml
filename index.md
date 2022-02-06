@@ -146,7 +146,8 @@ hero_height: is-medium
 
 <div class="container">
     <h2>Lecture 1: Introduction.</h2>
-    <p>A brief intro on what is machine learning, what are the most important techniques in ML, and how to apply them to solve problems in the real world.</p>
+    <p>Introduction to Applied Machine Learning.</p>
+    <p>Supervised, unsupervised, reinforcement learning.</p>
     <div class="columns">
         <div class="column">
             <div class="dropdown">
@@ -191,7 +192,7 @@ hero_height: is-medium
                       <a href="./slides/slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Chapter 1 - Live Slides
                       </a>
-                      <a href="./slides/slides_pdf/lecture1-introduction_slides_pdf.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="./slides/slides_pdf/lecture1-introduction_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Chapter 1 - PDF Slides
                       </a>
                     </div>
@@ -267,7 +268,7 @@ hero_height: is-medium
 
 <div class="container">
     <h2>Lecture 2: Anatomy of Supervised Machine Learning.</h2>
-    <p>A brief intro on what is machine learning, what are the most important techniques in ML, and how to apply them to solve problems in the real world.</p>
+    <p>Supervised Learning: Introduction. Models, features, objectives, model training, ordinary least squares.</p>
     <div class="columns">
         <div class="column">
             <div class="dropdown">
@@ -307,10 +308,10 @@ hero_height: is-medium
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
                       <a href="./slides/slides_html/lecture2-supervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
-                        Chapter 1 - Live Slides
+                        Chapter 2 - Live Slides
                       </a>
-                      <a href="./slides/slides_pdf/lecture1-introduction_slides_pdf.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
-                        Chapter 1 - PDF Slides
+                      <a href="./slides/slides_pdf/lecture2-supervised-learning_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Chapter 2 - PDF Slides
                       </a>
                     </div>
                 </div>
