@@ -254,7 +254,125 @@ hero_height: is-medium
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
                       <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        The Elements of Statistic Learning - Chapter 1
+                        ESL - Chapter 1
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+***
+
+<div class="container">
+    <h2>Lecture 2: Anatomy of Supervised Machine Learning.</h2>
+    <p>A brief intro on what is machine learning, what are the most important techniques in ML, and how to apply them to solve problems in the real world.</p>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/UQFlSs3pu-k" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            2.1 - A Supervised Machine Learning Problem
+                        </a>
+                        <a href="https://youtu.be/PK6IEeAWiRg" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            2.2 - The Dataset
+                        </a>
+                        <a href="https://youtu.be/PED1OYvQUX4" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            2.3 - Learning Algorithms
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./slides/slides_html/lecture2-supervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Chapter 1 - Live Slides
+                      </a>
+                      <a href="./slides/slides_pdf/lecture1-introduction_slides_pdf.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Chapter 1 - PDF Slides
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notes</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_html/lecture2-supervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Chapter 2 - HTML Notes
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Code</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Chapter 2 - Colab Notebook
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_ipynb/lecture2-supervised-learning.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Chapter 2 - iPython Notebook
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        ESL - Chapter 1, Chapter 2.1-2.3, Chapter 3.1-3.2.
                       </a>
                     </div>
                 </div>
