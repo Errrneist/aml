@@ -321,7 +321,7 @@ hero_height: is-medium
             <div class="dropdown">
                 <div class="dropdown-trigger">
                     <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Notes</span>
+                      <span>Notebook</span>
                       <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
                       </span>
@@ -330,31 +330,12 @@ hero_height: is-medium
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
                       <a href="./notes/notes_html/lecture2-supervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Chapter 2 Notes - HTML 
+                        Chapter 2 Notebook - HTML 
                       </a>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <div class="dropdown">
-                <div class="dropdown-trigger">
-                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>Code</span>
-                      <span class="icon is-small">
-                        <i class="fas fa-angle-down" aria-hidden="true"></i>
-                      </span>
-                    </button>
-                </div>
-                <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Chapter 2 Notebook - Colab 
-                      </a>
-                    </div>
-                    <div class="dropdown-content">
-                      <a href="./notes/notes_ipynb/lecture2-supervised-learning.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Chapter 2 Notebook - ipynb 
                       </a>
                     </div>
                 </div>
