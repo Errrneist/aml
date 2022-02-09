@@ -338,6 +338,11 @@ hero_height: is-medium
                         Chapter 2 Notebook - Colab 
                       </a>
                     </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_pdf/lecture2-supervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Chapter 2 LaTeX Notes - PDF 
+                      </a>
+                    </div>
                 </div>
             </div>
         </div>
