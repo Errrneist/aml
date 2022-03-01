@@ -2072,6 +2072,7 @@ hero_height: is-medium
 
 <div class="container">
     <h2>Lecture 19: Dimensionality Reduction.</h2>
+    <p>Note: Lecture video 19 part 2 was incorrectly titled as part 3 on Youtube.</p>
     <div class="tags">
         <span class="tag is-success is-light">Dimensionality Reduction</span> 
         <span class="tag is-success is-light">PCA</span>
@@ -2511,6 +2512,7 @@ hero_height: is-medium
 
 <div class="container">
     <h2>Lecture 23: Overview.</h2>
+    <p>Note: Videos for lecture 23 is missing on Youtube.</p>
     <div class="tags">
         <span class="tag is-success is-light">Bias/variance Tradeoff</span> 
         <span class="tag is-success is-light">Empirical risk minimization</span>
