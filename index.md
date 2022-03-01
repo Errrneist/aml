@@ -6,92 +6,6 @@ show_sidebar: false
 hero_height: is-medium
 ---
 
-[comment]: <> (<div class="tile is-ancestor">)
-
-[comment]: <> (  <div class="tile is-vertical">)
-
-[comment]: <> (    <div class="tile">)
-
-[comment]: <> (      <div class="tile is-parent">)
-
-[comment]: <> (        <article class="tile is-child notification is-primary">)
-
-[comment]: <> (          <p class="title">Volodymyr<br>Kuleshov</p>)
-
-[comment]: <> (          <p class="subtitle">2020 - 2022</p>)
-
-[comment]: <> (          <figure class="image is-1by1">)
-
-[comment]: <> (            <img style="border-radius: 2%;" src="img/volodymyr_kuleshov.jpg">)
-
-[comment]: <> (          </figure>)
-
-[comment]: <> (        </article>)
-
-[comment]: <> (      </div>)
-
-[comment]: <> (      <div class="tile is-parent">)
-
-[comment]: <> (        <article class="tile is-child notification is-primary is-light">)
-
-[comment]: <> (          <p class="title">Serge<br>Belongie</p>)
-
-[comment]: <> (          <p class="subtitle">0000 - 2019</p>)
-
-[comment]: <> (          <figure class="image is-1by1">)
-
-[comment]: <> (            <img style="border-radius: 2%;" src="img/serge_belongie.jpg">)
-
-[comment]: <> (          </figure>)
-
-[comment]: <> (        </article>)
-
-[comment]: <> (      </div>)
-
-[comment]: <> (      <div class="tile is-parent">)
-
-[comment]: <> (        <article class="tile is-child notification is-link is-light">)
-
-[comment]: <> (          <p class="title">Nathan<br>Kallus</p>)
-
-[comment]: <> (          <p class="subtitle">0000 - 0000</p>)
-
-[comment]: <> (          <figure class="image is-1by1">)
-
-[comment]: <> (            <img style="border-radius: 2%;" src="img/nathan_kallus.jpg">)
-
-[comment]: <> (          </figure>)
-
-[comment]: <> (        </article>)
-
-[comment]: <> (      </div>)
-
-[comment]: <> (      <div class="tile is-parent">)
-
-[comment]: <> (        <article class="tile is-child notification is-info is-light">)
-
-[comment]: <> (          <p class="title">Other<br>Contributors</p>)
-
-[comment]: <> (          <p><strong>Lorem ipsum</strong></p>)
-
-[comment]: <> (          <p><strong>Dolor Sit</strong></p>)
-
-[comment]: <> (          <p><strong>Adipiscing Elit</strong></p>)
-
-[comment]: <> (          <p><strong>Sed Do Eiusmod</strong></p>)
-
-[comment]: <> (        </article>)
-
-[comment]: <> (      </div>)
-      
-[comment]: <> (    </div>)
-
-[comment]: <> (</div>)
-
-[comment]: <> (</div>)
-
-[comment]: <> (<br>)
-
 <div class="columns">
     <div class="column is-6">
         <h2>Lorem Ipsum</h2>
@@ -1793,12 +1707,887 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 14 Notebook - Colab 
+                        Lecture 15 Notebook - Colab 
                       </a>
                     </div>
                     <div class="dropdown-content">
                       <a href="./notes/notes_pdf/lecture15-deep-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 15 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="#" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        N/A
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+***
+
+<div class="container">
+    <h2>Lecture 16: Unsupervised Learning.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Unsupervised Learning</span> 
+        <span class="tag is-success is-light">Introduction</span>
+        <span class="tag is-success is-light">Language</span>
+        <span class="tag is-success is-light">Practice</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/jl1_YiOA3xQ" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            16.1 - Introduction to Unsupervised Learning
+                        </a>
+                        <a href="https://youtu.be/Al02l6rx30g" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            16.2 - The Language of Unsupervised Learning
+                        </a>
+                        <a href="https://youtu.be/3IW_Yz5IpY0" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            16.3 - Unsupervised Learning in Practice
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./slides/slides_html/lecture16-unsupervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 16 Slides - Live 
+                      </a>
+                      <a href="./slides/slides_pdf/lecture16-unsupervised-learning.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 16 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_html/lecture16-unsupervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 16 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 16 Notebook - Colab 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_pdf/lecture16-unsupervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 16 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        ESL - Chapter 14.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+***
+
+<div class="container">
+    <h2>Lecture 17: Density Estimation.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Density Estimation</span> 
+        <span class="tag is-success is-light">Probabilistic Models</span>
+        <span class="tag is-success is-light">K-Nearest Neighbors</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/m__VGIDQU1E" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            17.1 - Unsupervised Probabilistic Models
+                        </a>
+                        <a href="https://youtu.be/YilvCJfb088" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            17.2 - Kernel Density Estimation
+                        </a>
+                        <a href="https://youtu.be/t_qyXykhbfg" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            17.3 - Latent Variable Models
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./slides/slides_html/lecture17-density-estimation.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 17 Slides - Live 
+                      </a>
+                      <a href="./slides/slides_pdf/lecture17-density-estimation.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 17 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_html/lecture17-density-estimation.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 17 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 17 Notebook - Colab 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_pdf/lecture17-density-estimation.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 17 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        ESL - Chapter 14.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+***
+
+<div class="container">
+    <h2>Lecture 18: Clustering.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Clustering</span> 
+        <span class="tag is-success is-light">K-means</span>
+        <span class="tag is-success is-light">Expectation-Maximization</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/yTVihG6vhiE" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            18.1 - Gaussian Mixture Models
+                        </a>
+                        <a href="https://youtu.be/wG-TZN2TwzQ" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            18.2 - Expectation Maximization
+                        </a>
+                        <a href="https://youtu.be/ekjvXQZtzqU" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            18.3 - Expectation Maximization in Gaussian Mixture Models
+                        </a>
+                        <a href="https://youtu.be/kpNf7eVNeQo" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            18.4 - Generalization in Probabilistic Models
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./slides/slides_html/lecture18-clustering.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 18 Slides - Live 
+                      </a>
+                      <a href="./slides/slides_pdf/lecture18-clustering.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 18 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_html/lecture18-clustering.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 18 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 18 Notebook - Colab 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_pdf/lecture18-clustering.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 18 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        ESL - Chapter 14.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+***
+
+<div class="container">
+    <h2>Lecture 19: Dimensionality Reduction.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Dimensionality Reduction</span> 
+        <span class="tag is-success is-light">PCA</span>
+        <span class="tag is-success is-light">ICA</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/zhix3AQnoL0" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            19.1 - What is Dimensionality Reduction?
+                        </a>
+                        <a href="https://youtu.be/VFWmLKWUahY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            19.2 - Principal Component Analysis
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./slides/slides_html/lecture19-dimensionality-reduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 19 Slides - Live 
+                      </a>
+                      <a href="./slides/slides_pdf/lecture19-dimensionality-reduction.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 19 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_html/lecture19-dimensionality-reduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 19 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 19 Notebook - Colab 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_pdf/lecture19-dimensionality-reduction.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 19 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        ESL - Chapter 14.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+***
+
+<div class="container">
+    <h2>Lecture 20: Evaluating Machine Learning Models.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Evaluation</span> 
+        <span class="tag is-success is-light">Dataset Splits</span>
+        <span class="tag is-success is-light">Cross-Validation</span>
+        <span class="tag is-success is-light">Performance Measures</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/xAo77BqF_nI" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            20.1 - Machine Learning Development Workflow
+                        </a>
+                        <a href="https://youtu.be/CTQm8T6PZKg" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            20.2 - Evaluating Classification Models
+                        </a>
+                        <a href="https://youtu.be/VXk5XZ-iz2g" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            20.3 - Advanced Classification Metrics
+                        </a>
+                        <a href="https://youtu.be/l6RPx83Yn5M" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            20.4 - Evaluating Regression Models
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./slides/slides_html/lecture20-evaluation.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 20 Slides - Live 
+                      </a>
+                      <a href="./slides/slides_pdf/lecture20-evaluation.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 20 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_html/lecture20-evaluation.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 20 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 20 Notebook - Colab 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_pdf/lecture20-evaluation.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 20 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        ESL - Chapter 7.10.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+***
+
+<div class="container">
+    <h2>Lecture 21: Model Iteration and Improvement.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Diagnosis</span> 
+        <span class="tag is-success is-light">Model Iteration Process</span>
+        <span class="tag is-success is-light">Bias/Variance Tradeoff</span>
+        <span class="tag is-success is-light">Baselines</span>
+        <span class="tag is-success is-light">Learning Curves</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/kPtotLrFCVw" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            21.1 - Error Analysis
+                        </a>
+                        <a href="https://youtu.be/drPhFy6U0Lk" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            21.2 - Bias / Variance Analysis
+                        </a>
+                        <a href="https://youtu.be/-QKMmFX-g1g" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            21.3 - Baselines
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./slides/slides_html/lecture21-model-iteration.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 21 Slides - Live 
+                      </a>
+                      <a href="./slides/slides_pdf/lecture21-model-iteration.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 21 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_html/lecture21-model-iteration.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 21 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 21 Notebook - Colab 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_pdf/lecture21-model-iteration.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 21 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        ESL - Chapter 2.9, Chapter 7.1-7.5.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+***
+
+<div class="container">
+    <h2>Lecture 22: Tools for Diagnosing Model Performance.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Diagnosis</span> 
+        <span class="tag is-success is-light">Error Analysis</span>
+        <span class="tag is-success is-light">Data Integrity</span>
+        <span class="tag is-success is-light">Human-Level Performance</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/lYAV5KNk_TY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            22.1 - Learning Curves
+                        </a>
+                        <a href="https://youtu.be/StNrJnL8eX0" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            22.2 - Loss Curves
+                        </a>
+                        <a href="https://youtu.be/wCBuc6Qc_wI" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            22.3 - Validation Curves
+                        </a>
+                        <a href="https://youtu.be/6EUK-9lmHfo" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            22.4 - Distribution Mismatch
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./slides/slides_html/lecture22-evaluation-tools.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 22 Slides - Live 
+                      </a>
+                      <a href="./slides/slides_pdf/lecture22-evaluation-tools.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 22 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_html/lecture22-evaluation-tools.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 22 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 22 Notebook - Colab 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_pdf/lecture22-evaluation-tools.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 22 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="#" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        N/A
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+***
+
+<div class="container">
+    <h2>Lecture 23: Overview.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Bias/variance Tradeoff</span> 
+        <span class="tag is-success is-light">Empirical risk minimization</span>
+        <span class="tag is-success is-light">Learning theory</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/YOrgAj-Gpgo" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            23.1 - MISSING
+                        </a>
+                        <a href="https://youtu.be/JxXSPc0SkO0" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            23.2 - MISSING
+                        </a>
+                        <a href="https://youtu.be/-3ClaLCv6AU" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            23.3 - MISSING
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./slides/slides_html/lecture23-overview.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 23 Slides - Live 
+                      </a>
+                      <a href="./slides/slides_pdf/lecture23-overview.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 23 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_html/lecture23-overview.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 23 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 23 Notebook - Colab 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="./notes/notes_pdf/lecture23-overview.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 23 LaTeX Notes - PDF 
                       </a>
                     </div>
                 </div>
