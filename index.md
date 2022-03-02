@@ -60,6 +60,7 @@ hero_height: is-medium
 
 <div class="container">
     <h2>Lecture 1: Introduction.</h2>
+    <p>Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="tags">
         <span class="tag is-success is-light">Supervised Learning</span>
         <span class="tag is-success is-light">Unsupervised Learning</span>
@@ -179,6 +180,7 @@ hero_height: is-medium
         <span class="tag is-success is-light">Model training</span>
         <span class="tag is-success is-light">Ordinary least squares</span>
     </div>
+    <p>Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="columns">
         <div class="column">
             <div class="dropdown">
