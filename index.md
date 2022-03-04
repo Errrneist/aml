@@ -129,7 +129,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture1-introduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="./notes/notes_html/lecture1-introduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 1 Notebook - HTML 
                       </a>
                     </div>
