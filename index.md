@@ -107,7 +107,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
+                      <a href="./slides/slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 1 Slides - Live 
                       </a>
                       <a href="./slides/slides_pdf/lecture1-introduction_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
@@ -222,7 +222,7 @@ hero_height: is-medium
                       <a href="./slides/slides_html/lecture2-supervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 2 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture2-supervised-learning_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="./slides/slides_pdf/lecture2-supervised-learning_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
                         Lecture 2 Slides - PDF 
                       </a>
                     </div>
@@ -241,17 +241,17 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture2-supervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="./notes/notes_html/lecture2-supervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 2 Notebook - HTML 
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 2 Notebook - Colab 
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture2-supervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="./notes/notes_pdf/lecture2-supervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 2 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -334,7 +334,7 @@ hero_height: is-medium
                       <a href="./slides/slides_html/lecture3-linear-regression.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 3 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture3-linear-regression_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="./slides/slides_pdf/lecture3-linear-regression_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
                         Lecture 3 Slides - PDF 
                       </a>
                     </div>
