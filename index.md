@@ -107,10 +107,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="./slides/slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
                         Lecture 1 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture1-introduction_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="./slides/slides_pdf/lecture1-introduction_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
                         Lecture 1 Slides - PDF 
                       </a>
                     </div>
@@ -134,12 +134,12 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 1 Notebook - Colab 
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture1-introduction.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="./notes/notes_pdf/lecture1-introduction.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 1 LaTeX Notes - PDF 
                       </a>
                     </div>
