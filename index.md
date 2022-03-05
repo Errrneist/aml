@@ -134,8 +134,8 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
-                        Lecture 1 Notebook - Colab 
+                      <a href="./notes/notes_ipynb/lecture1-introduction.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
+                        Lecture 1 iPython Notebook 
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -246,8 +246,8 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
-                        Lecture 2 Notebook - Colab 
+                      <a href="./notes/notes_ipynb/lecture2-supervised-learning.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
+                        Lecture 2 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -358,8 +358,8 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 3 Notebook - Colab 
+                      <a href="./notes/notes_ipynb/lecture3-linear-regression.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                        Lecture 3 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -475,7 +475,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 4 Notebook - Colab 
+                        Lecture 4 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -604,12 +604,12 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 5A Notebook - Colab 
+                        Lecture 5A iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 5B Notebook - Colab 
+                        Lecture 5B iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -728,7 +728,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 6 Notebook - Colab 
+                        Lecture 6 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -835,7 +835,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 7 Notebook - Colab 
+                        Lecture 7 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -943,7 +943,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 8 Notebook - Colab 
+                        Lecture 8 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -1056,7 +1056,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 9 Notebook - Colab 
+                        Lecture 9 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -1164,7 +1164,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 10 Notebook - Colab 
+                        Lecture 10 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -1275,7 +1275,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 11 Notebook - Colab 
+                        Lecture 11 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -1386,7 +1386,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 12 Notebook - Colab 
+                        Lecture 12 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -1493,7 +1493,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 13 Notebook - Colab 
+                        Lecture 13 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -1601,7 +1601,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 14 Notebook - Colab 
+                        Lecture 14 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -1709,7 +1709,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 15 Notebook - Colab 
+                        Lecture 15 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -1818,7 +1818,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 16 Notebook - Colab 
+                        Lecture 16 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -1926,7 +1926,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 17 Notebook - Colab 
+                        Lecture 17 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -2037,7 +2037,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 18 Notebook - Colab 
+                        Lecture 18 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -2143,7 +2143,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 19 Notebook - Colab 
+                        Lecture 19 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -2255,7 +2255,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 20 Notebook - Colab 
+                        Lecture 20 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -2365,7 +2365,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 21 Notebook - Colab 
+                        Lecture 21 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -2477,7 +2477,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 22 Notebook - Colab 
+                        Lecture 22 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
@@ -2586,7 +2586,7 @@ hero_height: is-medium
                     </div>
                     <div class="dropdown-content">
                       <a href="https://drive.google.com/file/d/12uklW3RMQ0NccH9JBzGbM2IKVqxt2yvo/view?usp=sharing" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
-                        Lecture 23 Notebook - Colab 
+                        Lecture 23 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
