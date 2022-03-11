@@ -107,10 +107,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 1 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture1-introduction_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture1-introduction_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
                         Lecture 1 Slides - PDF 
                       </a>
                     </div>
@@ -129,17 +129,17 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture1-introduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture1-introduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 1 Notebook - HTML 
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_ipynb/lecture1-introduction.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_ipynb/lecture1-introduction.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 1 iPython Notebook 
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture1-introduction.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture1-introduction.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 1 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -219,10 +219,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture2-supervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture2-supervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 2 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture2-supervised-learning_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture2-supervised-learning_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
                         Lecture 2 Slides - PDF 
                       </a>
                     </div>
@@ -241,17 +241,17 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture2-supervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture2-supervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 2 Notebook - HTML 
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_ipynb/lecture2-supervised-learning.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_ipynb/lecture2-supervised-learning.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 2 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture2-supervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture2-supervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download>
                         Lecture 2 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -331,10 +331,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture3-linear-regression.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture3-linear-regression.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 3 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture3-linear-regression_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture3-linear-regression_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download>
                         Lecture 3 Slides - PDF 
                       </a>
                     </div>
@@ -353,17 +353,17 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture3-linear-regression.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture3-linear-regression.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 3 Notebook - HTML 
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_ipynb/lecture3-linear-regression.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_ipynb/lecture3-linear-regression.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 3 iPython Notebook  
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture3-linear-regression.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture3-linear-regression.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 3 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -447,10 +447,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture4-foundations-supervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture4-foundations-supervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 4 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture4-foundations-supervised-learning_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture4-foundations-supervised-learning_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 4 Slides - PDF 
                       </a>
                     </div>
@@ -469,7 +469,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture4-foundations-supervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture4-foundations-supervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 4 Notebook - HTML 
                       </a>
                     </div>
@@ -479,7 +479,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture4-foundations-supervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture4-foundations-supervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 4 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -565,16 +565,16 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture5-maximum-likelihood.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture5-maximum-likelihood.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 5A Slides - Live 
                       </a>
-                      <a href="./slides/slides_html/lecture5b-probabilistic-perspectives.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture5b-probabilistic-perspectives.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 5B Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture5-maximum-likelihood_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture5-maximum-likelihood_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 5A Slides - PDF 
                       </a>
-                      <a href="./slides/slides_pdf/lecture5b-probabilistic-perspectives_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture5b-probabilistic-perspectives_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 5B Slides - PDF 
                       </a>
                     </div>
@@ -593,12 +593,12 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture5-maximum-likelihood.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture5-maximum-likelihood.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 5A Notebook - HTML 
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture5b-probabilistic-perspectives.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture5b-probabilistic-perspectives.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 5B Notebook - HTML 
                       </a>
                     </div>
@@ -613,12 +613,12 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture5-maximum-likelihood.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture5-maximum-likelihood.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 5A LaTeX Notes - PDF 
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture5b-probabilistic-perspectives.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture5b-probabilistic-perspectives.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 5B LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -700,10 +700,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture6-classification.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture6-classification.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 6 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture6-classification.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture6-classification.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 6 Slides - PDF 
                       </a>
                     </div>
@@ -722,7 +722,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture6-classification.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture6-classification.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 6 Notebook - HTML 
                       </a>
                     </div>
@@ -732,7 +732,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture6-classification.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture6-classification.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 6 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -807,10 +807,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture7-generative-models.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture7-generative-models.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 7 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture7-generative-models_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture7-generative-models_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 7 Slides - PDF 
                       </a>
                     </div>
@@ -829,7 +829,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture7-generative-models.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture7-generative-models.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 7 Notebook - HTML 
                       </a>
                     </div>
@@ -839,7 +839,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture7-generative-models.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture7-generative-models.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 7 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -915,10 +915,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture8-naive-bayes.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture8-naive-bayes.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 8 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture8-naive-bayes_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture8-naive-bayes_slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 8 Slides - PDF 
                       </a>
                     </div>
@@ -937,7 +937,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture8-naive-bayes.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture8-naive-bayes.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 8 Notebook - HTML 
                       </a>
                     </div>
@@ -947,7 +947,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture8-naive-bayes.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture8-naive-bayes.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 8 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -1028,10 +1028,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture9-support-vector-machines.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture9-support-vector-machines.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 9 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture9-support-vector-machines.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture9-support-vector-machines.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 9 Slides - PDF 
                       </a>
                     </div>
@@ -1050,7 +1050,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture9-support-vector-machines.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture9-support-vector-machines.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 9 Notebook - HTML 
                       </a>
                     </div>
@@ -1060,7 +1060,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture9-support-vector-machines.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture9-support-vector-machines.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 9 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -1136,10 +1136,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture10-svm-dual.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture10-svm-dual.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 10 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture10-svm-dual.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture10-svm-dual.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 10 Slides - PDF 
                       </a>
                     </div>
@@ -1158,7 +1158,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture10-svm-dual.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture10-svm-dual.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 10 Notebook - HTML 
                       </a>
                     </div>
@@ -1168,7 +1168,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture10-svm-dual.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture10-svm-dual.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 10 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -1247,10 +1247,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture11-kernels.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture11-kernels.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 11 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture11-kernels.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture11-kernels.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 11 Slides - PDF 
                       </a>
                     </div>
@@ -1269,7 +1269,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture11-kernels.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture11-kernels.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 11 Notebook - HTML 
                       </a>
                     </div>
@@ -1279,7 +1279,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture11-kernels.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture11-kernels.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 11 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -1358,10 +1358,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture12-decision-trees.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture12-decision-trees.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 12 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture12-decision-trees.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture12-decision-trees.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 12 Slides - PDF 
                       </a>
                     </div>
@@ -1380,7 +1380,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture12-decision-trees.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture12-decision-trees.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 12 Notebook - HTML 
                       </a>
                     </div>
@@ -1390,7 +1390,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture12-decision-trees.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture12-decision-trees.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 12 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -1465,10 +1465,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture13-boosting.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture13-boosting.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 13 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture13-boosting.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture13-boosting.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 13 Slides - PDF 
                       </a>
                     </div>
@@ -1487,7 +1487,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture13-boosting.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture13-boosting.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 13 Notebook - HTML 
                       </a>
                     </div>
@@ -1497,7 +1497,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture13-boosting.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture13-boosting.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 13 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -1573,10 +1573,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture14b-neural-networks.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture14b-neural-networks.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 14 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture14b-neural-networks.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture14b-neural-networks.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 14 Slides - PDF 
                       </a>
                     </div>
@@ -1595,7 +1595,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture14b-neural-networks.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture14b-neural-networks.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 14 Notebook - HTML 
                       </a>
                     </div>
@@ -1605,7 +1605,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture14b-neural-networks.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture14b-neural-networks.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 14 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -1681,10 +1681,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture15-deep-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture15-deep-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 15 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture15-deep-learning.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture15-deep-learning.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 15 Slides - PDF 
                       </a>
                     </div>
@@ -1703,7 +1703,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture15-deep-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture15-deep-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 15 Notebook - HTML 
                       </a>
                     </div>
@@ -1713,7 +1713,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture15-deep-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture15-deep-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 15 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -1790,10 +1790,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture16-unsupervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture16-unsupervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 16 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture16-unsupervised-learning.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture16-unsupervised-learning.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 16 Slides - PDF 
                       </a>
                     </div>
@@ -1812,7 +1812,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture16-unsupervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture16-unsupervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 16 Notebook - HTML 
                       </a>
                     </div>
@@ -1822,7 +1822,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture16-unsupervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture16-unsupervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 16 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -1898,10 +1898,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture17-density-estimation.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture17-density-estimation.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 17 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture17-density-estimation.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture17-density-estimation.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 17 Slides - PDF 
                       </a>
                     </div>
@@ -1920,7 +1920,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture17-density-estimation.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture17-density-estimation.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 17 Notebook - HTML 
                       </a>
                     </div>
@@ -1930,7 +1930,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture17-density-estimation.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture17-density-estimation.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 17 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -2009,10 +2009,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture18-clustering.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture18-clustering.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 18 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture18-clustering.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture18-clustering.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 18 Slides - PDF 
                       </a>
                     </div>
@@ -2031,7 +2031,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture18-clustering.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture18-clustering.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 18 Notebook - HTML 
                       </a>
                     </div>
@@ -2041,7 +2041,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture18-clustering.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture18-clustering.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 18 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -2115,10 +2115,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture19-dimensionality-reduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture19-dimensionality-reduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 19 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture19-dimensionality-reduction.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture19-dimensionality-reduction.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 19 Slides - PDF 
                       </a>
                     </div>
@@ -2137,7 +2137,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture19-dimensionality-reduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture19-dimensionality-reduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 19 Notebook - HTML 
                       </a>
                     </div>
@@ -2147,7 +2147,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture19-dimensionality-reduction.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture19-dimensionality-reduction.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 19 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -2227,10 +2227,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture20-evaluation.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture20-evaluation.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 20 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture20-evaluation.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture20-evaluation.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 20 Slides - PDF 
                       </a>
                     </div>
@@ -2249,7 +2249,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture20-evaluation.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture20-evaluation.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 20 Notebook - HTML 
                       </a>
                     </div>
@@ -2259,7 +2259,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture20-evaluation.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture20-evaluation.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 20 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -2337,10 +2337,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture21-model-iteration.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture21-model-iteration.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 21 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture21-model-iteration.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture21-model-iteration.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 21 Slides - PDF 
                       </a>
                     </div>
@@ -2359,7 +2359,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture21-model-iteration.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture21-model-iteration.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 21 Notebook - HTML 
                       </a>
                     </div>
@@ -2369,7 +2369,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture21-model-iteration.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture21-model-iteration.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 21 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -2449,10 +2449,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture22-evaluation-tools.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture22-evaluation-tools.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 22 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture22-evaluation-tools.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture22-evaluation-tools.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 22 Slides - PDF 
                       </a>
                     </div>
@@ -2471,7 +2471,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture22-evaluation-tools.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture22-evaluation-tools.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 22 Notebook - HTML 
                       </a>
                     </div>
@@ -2481,7 +2481,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture22-evaluation-tools.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture22-evaluation-tools.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 22 LaTeX Notes - PDF 
                       </a>
                     </div>
@@ -2558,10 +2558,10 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./slides/slides_html/lecture23-overview.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_html/lecture23-overview.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 23 Slides - Live 
                       </a>
-                      <a href="./slides/slides_pdf/lecture23-overview.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                      <a href="https://cornell-machine-learning.github.io/aml-slides/slides_pdf/lecture23-overview.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item">
                         Lecture 23 Slides - PDF 
                       </a>
                     </div>
@@ -2580,7 +2580,7 @@ hero_height: is-medium
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
-                      <a href="./notes/notes_html/lecture23-overview.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_html/lecture23-overview.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 23 Notebook - HTML 
                       </a>
                     </div>
@@ -2590,7 +2590,7 @@ hero_height: is-medium
                       </a>
                     </div>
                     <div class="dropdown-content">
-                      <a href="./notes/notes_pdf/lecture23-overview.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
+                      <a href="https://cornell-machine-learning.github.io/aml-notes/notes_pdf/lecture23-overview.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" >
                         Lecture 23 LaTeX Notes - PDF 
                       </a>
                     </div>
