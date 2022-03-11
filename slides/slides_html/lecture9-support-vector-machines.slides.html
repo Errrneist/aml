@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/reveal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/pdf.css';
+        link.href = 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/html5shiv.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
@@ -13215,7 +13215,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Lecture-9:-Support-Vector-Machines">Lecture 9: Support Vector Machines<a class="anchor-link" href="#Lecture-9:-Support-Vector-Machines">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Lecture-9:-Support-Vector-Machines">Lecture 9: Support Vector Machines<a class="anchor-link" href="#Lecture-9:-Support-Vector-Machines">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
 
 </div>
 </div>
@@ -13831,7 +13831,7 @@ $$ \gamma^{(i)} = y^{(i)}\left( \frac{\theta^\top x^{(i)} + \theta_0}{||\theta||
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Geometric-Intuitions">Geometric Intuitions<a class="anchor-link" href="#Geometric-Intuitions">&#182;</a></h1><p>The margin $\gamma^{(i)}$ is called geometric because it corresponds to the distance from $x^{(i)}$ to the separating hyperplane $\theta^\top x + \theta_0 = 0$ (dashed line below).</p>
-<center><img width=40% src="https://aml.hongjunwu.com/slides/img/margin.png"></center>
+<center><img width=40% src="https://cornell-machine-learning.github.io/aml-images/img/margin.png"></center>
 </div>
 </div>
 </div></section><section>
@@ -13859,7 +13859,7 @@ $$ \gamma^{(i)} = y^{(i)}\left( \frac{\theta^\top x^{(i)} + \theta_0}{||\theta||
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<center><img width=40% src="https://aml.hongjunwu.com/slides/img/margin.png"></center><ol>
+<center><img width=40% src="https://cornell-machine-learning.github.io/aml-images/img/margin.png"></center><ol>
 <li>Let $x_0$ be the point on the boundary closest to $x^{(i)}$. Then by definition of the margin
 $x^{(i)} = x_0 + \gamma^{(i)} \frac{\theta}{||\theta||}$ or
 $$ x_0 = x^{(i)} - \gamma^{(i)} \frac{\theta}{||\theta||}. $$</li>
@@ -13957,7 +13957,7 @@ $$ \gamma^{(i)} =  \frac{\theta^\top x^{(i)} + \theta_0}{||\theta||}. $$</li>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-2:-The-Max-Margin-Classifier">Part 2: The Max-Margin Classifier<a class="anchor-link" href="#Part-2:-The-Max-Margin-Classifier">&#182;</a></h1><p>We have seen a way to measure the confidence level of a classifier at a data point using the notion of a <em>margin</em>.</p>
 <p>Next, we are going to see how to maximize the margin of linear classifiers.</p>
 
@@ -14082,7 +14082,7 @@ $$ y^{(i)}((x^{(i)})^\top\theta+\theta_0)\geq 1 \; \text{for all $i$} $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-3:-Soft-Margins-and-the-Hinge-Loss">Part 3: Soft Margins and the Hinge Loss<a class="anchor-link" href="#Part-3:-Soft-Margins-and-the-Hinge-Loss">&#182;</a></h1><p>Let's continue looking at how we can maximize the margin.</p>
 
 </div>
@@ -14406,7 +14406,7 @@ $$ L(y, f) = \max\left(1 - y \cdot f, 0\right). $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-4:-Optimization-for-SVMs">Part 4: Optimization for SVMs<a class="anchor-link" href="#Part-4:-Optimization-for-SVMs">&#182;</a></h1><p>We have seen a new way to formulate the SVM objective. Let's now see how to optimize it.</p>
 
 </div>
@@ -14903,8 +14903,8 @@ require(
       waitSeconds: 15
     },
     [
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/js/reveal.js"
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js",
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -14919,9 +14919,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/classList.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/notes/notes.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]

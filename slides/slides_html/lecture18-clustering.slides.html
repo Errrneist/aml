@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/reveal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/pdf.css';
+        link.href = 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/html5shiv.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
@@ -13215,7 +13215,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Lecture-18:-Clustering">Lecture 18: Clustering<a class="anchor-link" href="#Lecture-18:-Clustering">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Lecture-18:-Clustering">Lecture 18: Clustering<a class="anchor-link" href="#Lecture-18:-Clustering">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
 
 </div>
 </div>
@@ -13279,7 +13279,7 @@ where $\text{centroid}(k) = c_k$ denotes the centroid for cluster $k$.</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>This is best illustrated visually (from <a href="https://commons.wikimedia.org/wiki/File:K-means_convergence.gif">Wikipedia</a>):</p>
-<center><img width=50% src="https://aml.hongjunwu.com/slides/img/kmeans_convergence.gif"></center>
+<center><img width=50% src="https://cornell-machine-learning.github.io/aml-images/img/kmeans_convergence.gif"></center>
 </div>
 </div>
 </div></section><section>
@@ -13345,9 +13345,9 @@ $$P_\theta (x,z) = P_\theta (x | z) P_\theta (z)$$</p>
 </thead>
 <tbody>
 <tr>
-<td><img width=90% src="https://aml.hongjunwu.com/slides/img/oldfaithful_v2.png"></td>
-<td><img width=90% src="https://aml.hongjunwu.com/slides/img/oldfSingle_v2.png"></td>
-<td><img width=90% src="https://aml.hongjunwu.com/slides/img/oldfMOG_v2.png"></td>
+<td><img width=90% src="https://cornell-machine-learning.github.io/aml-images/img/oldfaithful_v2.png"></td>
+<td><img width=90% src="https://cornell-machine-learning.github.io/aml-images/img/oldfSingle_v2.png"></td>
+<td><img width=90% src="https://cornell-machine-learning.github.io/aml-images/img/oldfMOG_v2.png"></td>
 </tr>
 </tbody>
 </table>
@@ -13404,7 +13404,7 @@ $$</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Optimizing the likelihood of latent variable models is hard.</p>
 <p>A Gaussian has a single maximum, but a mixture has many and its objective is non-convex (hard to optimize).</p>
-<center><img width=50% src="https://aml.hongjunwu.com/slides/img/mogdensity1d_v2.png"></center>
+<center><img width=50% src="https://cornell-machine-learning.github.io/aml-images/img/mogdensity1d_v2.png"></center>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13425,7 +13425,7 @@ $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-2:-Expectation-Maximization">Part 2: Expectation Maximization<a class="anchor-link" href="#Part-2:-Expectation-Maximization">&#182;</a></h1><p>We will now describe expecation maximization (EM), an algorithm that can be used to fit Gaussian mixture models.</p>
 
 </div>
@@ -13580,7 +13580,7 @@ For many interesting models, this is tractable.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-3:-Expectation-Maximization-in-Gaussian-Mixture-Models">Part 3: Expectation Maximization in Gaussian Mixture Models<a class="anchor-link" href="#Part-3:-Expectation-Maximization-in-Gaussian-Mixture-Models">&#182;</a></h1><p>Next, let's work through how Expectation Maximization works in Gaussian Mixture Models.</p>
 
 </div>
@@ -13693,7 +13693,7 @@ n_k &amp; = \sum_{i=1}^n P(z=k|x^{(i)})
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-4:-Generalization-in-Probabilistic-Models">Part 4: Generalization in Probabilistic Models<a class="anchor-link" href="#Part-4:-Generalization-in-Probabilistic-Models">&#182;</a></h1><p>Let's now revisit the concepts of overfitting and underfitting in GMMs.</p>
 
 </div>
@@ -14252,8 +14252,8 @@ require(
       waitSeconds: 15
     },
     [
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/js/reveal.js"
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js",
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -14268,9 +14268,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/classList.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/notes/notes.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]

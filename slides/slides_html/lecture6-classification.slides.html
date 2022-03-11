@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/reveal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/pdf.css';
+        link.href = 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/html5shiv.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
@@ -13215,7 +13215,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Lecture-6:-Classification-Algorithms">Lecture 6: Classification Algorithms<a class="anchor-link" href="#Lecture-6:-Classification-Algorithms">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Lecture-6:-Classification-Algorithms">Lecture 6: Classification Algorithms<a class="anchor-link" href="#Lecture-6:-Classification-Algorithms">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
 
 </div>
 </div>
@@ -13723,7 +13723,7 @@ latter are NOT linearly separable from each other.
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-2:-Nearest-Neighbors">Part 2: Nearest Neighbors<a class="anchor-link" href="#Part-2:-Nearest-Neighbors">&#182;</a></h1><p>Previously, we have seen what defines a classification problem. Let's now look at our first classification algorithm.</p>
 
 </div>
@@ -14129,7 +14129,7 @@ $$y' = \frac{1}{K} \sum_{(x, y) \in \mathcal{N}(x')} y \approx \mathbb{E}[y \mid
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-3:-Non-Parametric-Models">Part 3: Non-Parametric Models<a class="anchor-link" href="#Part-3:-Non-Parametric-Models">&#182;</a></h1><p>Nearest neighbors is the first example of an important type of machine learning algorithm called a non-parametric model.</p>
 
 </div>
@@ -14219,7 +14219,7 @@ are an example of a parametric model.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Part-4:-Logistic-Regression">Part 4: Logistic Regression<a class="anchor-link" href="#Part-4:-Logistic-Regression">&#182;</a></h1><p>Next, we are going to see a simple parametric classification algorithm that addresses many of these limitations of Nearest Neighbors.</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Part-4:-Logistic-Regression">Part 4: Logistic Regression<a class="anchor-link" href="#Part-4:-Logistic-Regression">&#182;</a></h1><p>Next, we are going to see a simple parametric classification algorithm that addresses many of these limitations of Nearest Neighbors.</p>
 
 </div>
 </div>
@@ -14885,7 +14885,7 @@ The claim holds because $0=\theta^\top x$ is a linear function.</li>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Part-5:-Multi-Class-Classification">Part 5: Multi-Class Classification<a class="anchor-link" href="#Part-5:-Multi-Class-Classification">&#182;</a></h1><p>Finally, let's look at an extension of logistic regression to an arbitrary number of classes.</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Part-5:-Multi-Class-Classification">Part 5: Multi-Class Classification<a class="anchor-link" href="#Part-5:-Multi-Class-Classification">&#182;</a></h1><p>Finally, let's look at an extension of logistic regression to an arbitrary number of classes.</p>
 
 </div>
 </div>
@@ -15207,8 +15207,8 @@ require(
       waitSeconds: 15
     },
     [
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/js/reveal.js"
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js",
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -15223,9 +15223,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/classList.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/notes/notes.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]
