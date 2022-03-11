@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/reveal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/pdf.css';
+        link.href = 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/html5shiv.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
@@ -13215,7 +13215,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Lecture-19:-Dimensionality-Reduction">Lecture 19: Dimensionality Reduction<a class="anchor-link" href="#Lecture-19:-Dimensionality-Reduction">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Lecture-19:-Dimensionality-Reduction">Lecture 19: Dimensionality Reduction<a class="anchor-link" href="#Lecture-19:-Dimensionality-Reduction">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
 
 </div>
 </div>
@@ -13376,7 +13376,7 @@ The latent dimension $z$ is obtained from $x$ via a matrix $W$.</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Example:-Discovering-Structure-in-Digits">Example: Discovering Structure in Digits<a class="anchor-link" href="#Example:-Discovering-Structure-in-Digits">&#182;</a></h1><p>Dimensionality reduction can reveal interesting structure in digits without using labels.</p>
-<center><img width=50% src="https://aml.hongjunwu.com/slides/img/aae_dim_reduc_2.png"></center>
+<center><img width=50% src="https://cornell-machine-learning.github.io/aml-images/img/aae_dim_reduc_2.png"></center>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13384,7 +13384,7 @@ The latent dimension $z$ is obtained from $x$ via a matrix $W$.</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Example:-DNA-Analysis">Example: DNA Analysis<a class="anchor-link" href="#Example:-DNA-Analysis">&#182;</a></h1><p>Even linear dimensionality reduction is powerful. Here, in uncovers the geography of European countries from only DNA data</p>
-<center><img width=50% src="https://aml.hongjunwu.com/slides/img/dna_map.jpg"></center>
+<center><img width=50% src="https://cornell-machine-learning.github.io/aml-images/img/dna_map.jpg"></center>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13406,7 +13406,7 @@ The latent dimension $z$ is obtained from $x$ via a matrix $W$.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-2:-Principal-Component-Analysis">Part 2: Principal Component Analysis<a class="anchor-link" href="#Part-2:-Principal-Component-Analysis">&#182;</a></h1><p>We will now describe principal component analysis (PCA), one of the most widely used algorithms for dimensionality reduction.</p>
 
 </div>
@@ -13452,7 +13452,7 @@ for some $z \in \mathcal{X}$ that are the coordinates of $\tilde x$ in the basis
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In this example, the data lives in a lower-dimensional 2D plane within a 3D space (image <a href="https://doc.plob.org/machine_learning/14_Dimensionality_Reduction.html">credit</a>).</p>
-<center><img width=50% src="https://aml.hongjunwu.com/slides/img/pca_example_plane.png"></center>
+<center><img width=50% src="https://cornell-machine-learning.github.io/aml-images/img/pca_example_plane.png"></center>
 </div>
 </div>
 </div></section><section>
@@ -13460,7 +13460,7 @@ for some $z \in \mathcal{X}$ that are the coordinates of $\tilde x$ in the basis
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We can choose a basis $W$ for this plane. The coordinates in this basis are denoted by $z$ (image <a href="https://doc.plob.org/machine_learning/14_Dimensionality_Reduction.html">credit</a>).</p>
-<center><img width=80% src="https://aml.hongjunwu.com/slides/img/pca_example.png"></center>
+<center><img width=80% src="https://cornell-machine-learning.github.io/aml-images/img/pca_example.png"></center>
 </div>
 </div>
 </div></section><section>
@@ -13508,7 +13508,7 @@ between each input $x^{(i)}$ and its approximate reconstruction $$\tilde x^{(i)}
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In this example, if the points don't lie perfectly on a plane, we choose the plane such that the points' distance to it is minimized (image <a href="https://doc.plob.org/machine_learning/14_Dimensionality_Reduction.html">credit</a>).</p>
-<center><img width=80% src="https://aml.hongjunwu.com/slides/img/pca_example.png"></center>
+<center><img width=80% src="https://cornell-machine-learning.github.io/aml-images/img/pca_example.png"></center>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13592,7 +13592,7 @@ between each input $x^{(i)}$ and its approximate reconstruction $$\tilde x^{(i)}
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>How do we automatically identify such natural directions of variation in the data? Consider the following dataset (image by <a href="http://cs229.stanford.edu/">Andrew Ng</a>).</p>
-<center><img width=45% src="https://aml.hongjunwu.com/slides/img/pca_projection_data.png"></center>
+<center><img width=45% src="https://cornell-machine-learning.github.io/aml-images/img/pca_projection_data.png"></center>
 </div>
 </div>
 </div></section><section>
@@ -13600,7 +13600,7 @@ between each input $x^{(i)}$ and its approximate reconstruction $$\tilde x^{(i)}
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>One way to reduce the dimensionality of this dataset from is to project it along the following line.</p>
-<p><center><img width=50% src="https://aml.hongjunwu.com/slides/img/pca_projection1.png"></center>
+<p><center><img width=50% src="https://cornell-machine-learning.github.io/aml-images/img/pca_projection1.png"></center>
 Projected data is tightly clustered around its mean. It has <em>low variance</em>.</p>
 
 </div>
@@ -13610,7 +13610,7 @@ Projected data is tightly clustered around its mean. It has <em>low variance</em
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>An alternative projection is along the following line. Data is much more spread out: it has <em>high variance</em> around its mean.</p>
-<p><center><img width=50% src="https://aml.hongjunwu.com/slides/img/pca_projection2.png"></center>
+<p><center><img width=50% src="https://cornell-machine-learning.github.io/aml-images/img/pca_projection2.png"></center>
 Our goal is to identify this direction automatically.</p>
 
 </div>
@@ -13679,7 +13679,7 @@ $$\arg\min_W J_1(W) = \arg\max_W J_2(W).$$</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>This image by <a href="http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/">Alex Williams</a> provides intuition.</p>
-<center><img width=80% src="https://aml.hongjunwu.com/slides/img/pca_two_views.png"></center>
+<center><img width=80% src="https://cornell-machine-learning.github.io/aml-images/img/pca_two_views.png"></center>
 </div>
 </div>
 </div></section><section>
@@ -13692,7 +13692,7 @@ x
 &amp; = x + W W^\top x - W W^\top x \\
 &amp; = \underbrace{W W^\top x}_\text{projected data $\tilde x$ (D1)} + \underbrace{(I - W W^\top) x}_\text{difference between datapoint $x$ and $\tilde x$ (D2)}
 \end{align*}</p>
-<center><img width=50% src="https://aml.hongjunwu.com/slides/img/pca_decomposition.png"></center>
+<center><img width=50% src="https://cornell-machine-learning.github.io/aml-images/img/pca_decomposition.png"></center>
 </div>
 </div>
 </div></section><section>
@@ -14194,8 +14194,8 @@ require(
       waitSeconds: 15
     },
     [
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/js/reveal.js"
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js",
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -14210,9 +14210,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/classList.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/notes/notes.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]

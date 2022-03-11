@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/reveal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/pdf.css';
+        link.href = 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/html5shiv.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
@@ -13215,7 +13215,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Lecture-20:-Evaluating-Machine-Learning-Models">Lecture 20: Evaluating Machine Learning Models<a class="anchor-link" href="#Lecture-20:-Evaluating-Machine-Learning-Models">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Lecture-20:-Evaluating-Machine-Learning-Models">Lecture 20: Evaluating Machine Learning Models<a class="anchor-link" href="#Lecture-20:-Evaluating-Machine-Learning-Models">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
 
 </div>
 </div>
@@ -13492,7 +13492,7 @@ $$ x, y \sim \mathbb{P}. $$<p>The training set $\mathcal{D} = \{(x^{(i)}, y^{(i)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Part-2:-Evaluating-Classification-Models">Part 2: Evaluating Classification Models<a class="anchor-link" href="#Part-2:-Evaluating-Classification-Models">&#182;</a></h1><p>The first step towards building better ML models is to determine how to <em>evaluate</em> them.</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Part-2:-Evaluating-Classification-Models">Part 2: Evaluating Classification Models<a class="anchor-link" href="#Part-2:-Evaluating-Classification-Models">&#182;</a></h1><p>The first step towards building better ML models is to determine how to <em>evaluate</em> them.</p>
 <p>We will start by talking about how to evaluate classification models.</p>
 
 </div>
@@ -13911,7 +13911,7 @@ $$\text{F-Score} = \frac{2}{\frac{1}{\text{precision}} + \frac{1}{\text{recall}}
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Part-3:-Advanced-Classification-Metrics">Part 3: Advanced Classification Metrics<a class="anchor-link" href="#Part-3:-Advanced-Classification-Metrics">&#182;</a></h1><p>Next, we look a few more advanced classification metrics.</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Part-3:-Advanced-Classification-Metrics">Part 3: Advanced Classification Metrics<a class="anchor-link" href="#Part-3:-Advanced-Classification-Metrics">&#182;</a></h1><p>Next, we look a few more advanced classification metrics.</p>
 
 </div>
 </div>
@@ -14290,7 +14290,7 @@ weighted avg       0.81      0.84      0.81        50
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-4:-Evaluating-Regression-Models">Part 4: Evaluating Regression Models<a class="anchor-link" href="#Part-4:-Evaluating-Regression-Models">&#182;</a></h1><p>The first step towards building better ML models is to determine how to <em>evaluate</em> them.</p>
 <p>Next, we look at regression models.</p>
 
@@ -14442,8 +14442,8 @@ require(
       waitSeconds: 15
     },
     [
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/js/reveal.js"
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js",
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -14458,9 +14458,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/classList.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/notes/notes.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]

@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/reveal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/pdf.css';
+        link.href = 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/html5shiv.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
@@ -13215,7 +13215,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Lecture-22:-Tools-for-Diagnosing-Model-Performance">Lecture 22: Tools for Diagnosing Model Performance<a class="anchor-link" href="#Lecture-22:-Tools-for-Diagnosing-Model-Performance">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Lecture-22:-Tools-for-Diagnosing-Model-Performance">Lecture 22: Tools for Diagnosing Model Performance<a class="anchor-link" href="#Lecture-22:-Tools-for-Diagnosing-Model-Performance">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
 
 </div>
 </div>
@@ -13289,7 +13289,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Learning-Curves">Learning Curves<a class="anchor-link" href="#Learning-Curves">&#182;</a></h1><p>Learning curves show performance as a function of <strong>training set size</strong>.</p>
-<center><img width=60% src="https://aml.hongjunwu.com/slides/img/learning_curve1.png"></center><p>Learning curves are defined for <strong>fixed hyperparameters</strong>. Observe that dev set error decreases as we give the model more data.</p>
+<center><img width=60% src="https://cornell-machine-learning.github.io/aml-images/img/learning_curve1.png"></center><p>Learning curves are defined for <strong>fixed hyperparameters</strong>. Observe that dev set error decreases as we give the model more data.</p>
 
 </div>
 </div>
@@ -13298,7 +13298,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Visualizing-Ideal-Performance">Visualizing Ideal Performance<a class="anchor-link" href="#Visualizing-Ideal-Performance">&#182;</a></h1><p>It is often very useful to have a target upper bound on performance (e.g., human accuracy); it can also be visualized on the learning curve.</p>
-<p><center><img width=60% src="https://aml.hongjunwu.com/slides/img/learning_curve2.png"></center>
+<p><center><img width=60% src="https://cornell-machine-learning.github.io/aml-images/img/learning_curve2.png"></center>
 Extrapolating the red curve suggests how much additional data we need.</p>
 
 </div>
@@ -13308,7 +13308,7 @@ Extrapolating the red curve suggests how much additional data we need.</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In the example below, the dev error has plateaued and we know that adding more data will not be useful.</p>
-<center><img width=80% src="https://aml.hongjunwu.com/slides/img/learning_curve3.png"></center>
+<center><img width=80% src="https://cornell-machine-learning.github.io/aml-images/img/learning_curve3.png"></center>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13316,7 +13316,7 @@ Extrapolating the red curve suggests how much additional data we need.</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Learning-Curves-for-the-Training-Set">Learning Curves for the Training Set<a class="anchor-link" href="#Learning-Curves-for-the-Training-Set">&#182;</a></h1><p>We can further augment this plot with training set performance.</p>
-<p><center><img width=70% src="https://aml.hongjunwu.com/slides/img/learning_curve4.png"></center>
+<p><center><img width=70% src="https://cornell-machine-learning.github.io/aml-images/img/learning_curve4.png"></center>
 The blue curve shows training error as a function of training set size.</p>
 
 </div>
@@ -13338,7 +13338,7 @@ The blue curve shows training error as a function of training set size.</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Diagnosing-High-Bias">Diagnosing High Bias<a class="anchor-link" href="#Diagnosing-High-Bias">&#182;</a></h1><p>Learning curves can reveal when we have a bias problem.</p>
-<p><center><img width=60% src="https://aml.hongjunwu.com/slides/img/learning_curve5.png"></center>
+<p><center><img width=60% src="https://cornell-machine-learning.github.io/aml-images/img/learning_curve5.png"></center>
 Here, the model can't fit larger datasets, hence it's underfitting.</p>
 
 </div>
@@ -13348,7 +13348,7 @@ Here, the model can't fit larger datasets, hence it's underfitting.</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In practice, in can be hard to visually assess if the dev error has plateaued. Adding the training error makes this easier.</p>
-<p><center><img width=60% src="https://aml.hongjunwu.com/slides/img/learning_curve6.png"></center>
+<p><center><img width=60% src="https://cornell-machine-learning.github.io/aml-images/img/learning_curve6.png"></center>
 Here, adding data can no longer help: the blue error can only increase and thus dev error cannot decrease.</p>
 
 </div>
@@ -13358,7 +13358,7 @@ Here, adding data can no longer help: the blue error can only increase and thus 
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Diagnosing-High-Variance">Diagnosing High Variance<a class="anchor-link" href="#Diagnosing-High-Variance">&#182;</a></h1><p>The following plot shows we have high variance.</p>
-<p><center><img width=70% src="https://aml.hongjunwu.com/slides/img/learning_curve7.png"></center>
+<p><center><img width=70% src="https://cornell-machine-learning.github.io/aml-images/img/learning_curve7.png"></center>
 Training error is small (near optimal), but dev set error is large. We can address this by adding more data.</p>
 
 </div>
@@ -13368,7 +13368,7 @@ Training error is small (near optimal), but dev set error is large. We can addre
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In this plot, we have both high variance and high bias.</p>
-<p><center><img width=70% src="https://aml.hongjunwu.com/slides/img/learning_curve8.png"></center>
+<p><center><img width=70% src="https://cornell-machine-learning.github.io/aml-images/img/learning_curve8.png"></center>
 The training error significantly exceeds desired performance, and the dev set error is even higher.</p>
 
 </div>
@@ -13635,7 +13635,7 @@ The training error significantly exceeds desired performance, and the dev set er
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Part-2:-Loss-Curves">Part 2: Loss Curves<a class="anchor-link" href="#Part-2:-Loss-Curves">&#182;</a></h1><p>Another way to understand the performance of the model is to visualize its objective as we train the model.</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Part-2:-Loss-Curves">Part 2: Loss Curves<a class="anchor-link" href="#Part-2:-Loss-Curves">&#182;</a></h1><p>Another way to understand the performance of the model is to visualize its objective as we train the model.</p>
 <p>This section is based on <a href="https://cs231n.github.io/neural-networks-3/">materials</a> by Andrej Karpathy.</p>
 
 </div>
@@ -13692,7 +13692,7 @@ The training error significantly exceeds desired performance, and the dev set er
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Diagnosing-Bias-and-Variance">Diagnosing Bias and Variance<a class="anchor-link" href="#Diagnosing-Bias-and-Variance">&#182;</a></h1><p>Loss curves provide another way to diagnose bias and variance.</p>
-<center><img width=60% src="https://aml.hongjunwu.com/slides/img/loss_curve1.png"></center>
+<center><img width=60% src="https://cornell-machine-learning.github.io/aml-images/img/loss_curve1.png"></center>
 </div>
 </div>
 </div></section><section>
@@ -13741,7 +13741,7 @@ Model performance worsens after some number of training steps. The solution is t
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Diagnosing-Optimization-Issues">Diagnosing Optimization Issues<a class="anchor-link" href="#Diagnosing-Optimization-Issues">&#182;</a></h1><p>Loss curves also enable diagnosing optimization problems.</p>
-<p><center><img width=50% src="https://aml.hongjunwu.com/slides/img/loss_curve2.png"></center>
+<p><center><img width=50% src="https://cornell-machine-learning.github.io/aml-images/img/loss_curve2.png"></center>
 Here, we show training set accuracy for different learning rates.</p>
 
 </div>
@@ -13777,7 +13777,7 @@ Here, we show training set accuracy for different learning rates.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Part-3:-Validation-Curves">Part 3: Validation Curves<a class="anchor-link" href="#Part-3:-Validation-Curves">&#182;</a></h1><p>Validation curves help us understand the effects of different hyper-parameters.</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Part-3:-Validation-Curves">Part 3: Validation Curves<a class="anchor-link" href="#Part-3:-Validation-Curves">&#182;</a></h1><p>Validation curves help us understand the effects of different hyper-parameters.</p>
 
 </div>
 </div>
@@ -14019,7 +14019,7 @@ Here, we show training set accuracy for different learning rates.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Part-4:-Distribution-Mismatch">Part 4: Distribution Mismatch<a class="anchor-link" href="#Part-4:-Distribution-Mismatch">&#182;</a></h1><p>So far, we assumed that the distributions across different datasets are relatively similar.</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Part-4:-Distribution-Mismatch">Part 4: Distribution Mismatch<a class="anchor-link" href="#Part-4:-Distribution-Mismatch">&#182;</a></h1><p>So far, we assumed that the distributions across different datasets are relatively similar.</p>
 <p>When that is not the case, we may run into errors.</p>
 
 </div>
@@ -14204,8 +14204,8 @@ require(
       waitSeconds: 15
     },
     [
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/js/reveal.js"
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js",
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -14220,9 +14220,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/classList.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/notes/notes.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]

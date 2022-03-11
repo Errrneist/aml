@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/reveal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/pdf.css';
+        link.href = 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/html5shiv.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
@@ -13215,7 +13215,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Lecture-1:-Introduction-to-Machine-Learning">Lecture 1: Introduction to Machine Learning<a class="anchor-link" href="#Lecture-1:-Introduction-to-Machine-Learning">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Lecture-1:-Introduction-to-Machine-Learning">Lecture 1: Introduction to Machine Learning<a class="anchor-link" href="#Lecture-1:-Introduction-to-Machine-Learning">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov</strong><br>Cornell Tech</p>
 
 </div>
 </div>
@@ -13234,9 +13234,9 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Part-1:-What-is-Machine-Learning?">Part 1: What is Machine Learning?<a class="anchor-link" href="#Part-1:-What-is-Machine-Learning?">&#182;</a></h1><p>We hear a lot about machine learning (or ML for short) in the news.</p>
 <table><tr>
-    <td><center><img src="https://aml.hongjunwu.com/slides/img/breakthrough.jpg"/></center></td>
-    <td><center><img width=90% src="https://aml.hongjunwu.com/slides/img/alphago.jpeg"/></center></td>
-    <td><center><img src="https://aml.hongjunwu.com/slides/img/obama2.jpg"/></center></td>    
+    <td><center><img src="https://cornell-machine-learning.github.io/aml-images/img/breakthrough.jpg"/></center></td>
+    <td><center><img width=90% src="https://cornell-machine-learning.github.io/aml-images/img/alphago.jpeg"/></center></td>
+    <td><center><img src="https://cornell-machine-learning.github.io/aml-images/img/obama2.jpg"/></center></td>    
 </tr></table><p>But what is it, really?</p>
 
 </div>
@@ -13246,7 +13246,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="ML-in-Everyday-Life:-Search-Engines">ML in Everyday Life: Search Engines<a class="anchor-link" href="#ML-in-Everyday-Life:-Search-Engines">&#182;</a></h1><p>You use machine learninng every day when you run a search engine query.</p>
-<center><img src="https://aml.hongjunwu.com/slides/img/google.png"/></center>
+<center><img src="https://cornell-machine-learning.github.io/aml-images/img/google.png"/></center>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13255,8 +13255,8 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="ML-in-Everyday-Life:-Personal-Assitants">ML in Everyday Life: Personal Assitants<a class="anchor-link" href="#ML-in-Everyday-Life:-Personal-Assitants">&#182;</a></h1><p>Machine learning also powers the speech recognition, question answering and other intelligent capabilities of smartphone assistants like Apple Siri.</p>
 <table><tr>
-    <td><center><img src="https://aml.hongjunwu.com/slides/img/siri.png"/></center></td>
-    <td><center><img src="https://aml.hongjunwu.com/slides/img/google_assistant.png"/></center></td>
+    <td><center><img src="https://cornell-machine-learning.github.io/aml-images/img/siri.png"/></center></td>
+    <td><center><img src="https://cornell-machine-learning.github.io/aml-images/img/google_assistant.png"/></center></td>
 </tr></table>
 </div>
 </div>
@@ -13266,7 +13266,7 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="ML-in-Everyday-Life:-Spam/Fraud-Detection">ML in Everyday Life: Spam/Fraud Detection<a class="anchor-link" href="#ML-in-Everyday-Life:-Spam/Fraud-Detection">&#182;</a></h1><p>Machine learning is used in every spam filter, such as in Gmail.
 <br></p>
-<center><img src="https://aml.hongjunwu.com/slides/img/spam.png"/></center>
+<center><img src="https://cornell-machine-learning.github.io/aml-images/img/spam.png"/></center>
 </div>
 </div>
 </div>
@@ -13282,7 +13282,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="ML-in-Everyday-Life:-Self-Driving-Cars">ML in Everyday Life: Self-Driving Cars<a class="anchor-link" href="#ML-in-Everyday-Life:-Self-Driving-Cars">&#182;</a></h1><p>One of the most exciting and cutting-edge uses of machine learning algorithms are in autonomous vehicles.</p>
-<center><img width="80%" src="https://aml.hongjunwu.com/slides/img/waymo.jpg"/></center>
+<center><img width="80%" src="https://cornell-machine-learning.github.io/aml-images/img/waymo.jpg"/></center>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13302,7 +13302,7 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="An-Example:-Self-Driving-Cars">An Example: Self Driving Cars<a class="anchor-link" href="#An-Example:-Self-Driving-Cars">&#182;</a></h1><p>A self-driving car system uses dozens of components that include detection of cars, pedestrians, and other objects.
 <br></p>
-<center><img width=80% src="https://aml.hongjunwu.com/slides/img/tesla.jpg"/></center>
+<center><img width=80% src="https://cornell-machine-learning.github.io/aml-images/img/tesla.jpg"/></center>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13310,7 +13310,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Self-Driving-Cars:-A-Rule-Based-Algorithm">Self Driving Cars: A Rule-Based Algorithm<a class="anchor-link" href="#Self-Driving-Cars:-A-Rule-Based-Algorithm">&#182;</a></h1><p>One way to build a detection system is to write down rules.</p>
-<left><img width=50% src="https://aml.hongjunwu.com/slides/img/tesla_zoom.jpg"/></left><!-- <table style="border: 1px"><tr>
+<left><img width=50% src="https://cornell-machine-learning.github.io/aml-images/img/tesla_zoom.jpg"/></left><!-- <table style="border: 1px"><tr>
     <td><left>One way to build a detection system is to write down rules.</left></td>
     <td><img src="img/tesla_zoom.jpg"/></td>
 </tr></table> -->
@@ -13351,7 +13351,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Self-Driving-Cars:-An-ML-Approach">Self Driving Cars: An ML Approach<a class="anchor-link" href="#Self-Driving-Cars:-An-ML-Approach">&#182;</a></h1><p>The machine learning approach is to teach a computer how to do detection by showing it many examples of different objects.</p>
-<center><img src="https://aml.hongjunwu.com/slides/img/tesla_data.png"/></center><p>No manual programming is needed: the computer learns what defines a pedestrian or a car on its own!</p>
+<center><img src="https://cornell-machine-learning.github.io/aml-images/img/tesla_data.png"/></center><p>No manual programming is needed: the computer learns what defines a pedestrian or a car on its own!</p>
 
 </div>
 </div>
@@ -13408,7 +13408,7 @@ medical diagnosis, factory automation, machine translation, and many more!</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-2:-Three-Approaches-to-Machine-Learning">Part 2: Three Approaches to Machine Learning<a class="anchor-link" href="#Part-2:-Three-Approaches-to-Machine-Learning">&#182;</a></h1><p>Machine learning is broadly defined as the science of building software that has the ability to learn without being explicitly programmed.</p>
 <p>How might we enable machines to learn? Let's look at a few examples.</p>
 
@@ -13419,7 +13419,7 @@ medical diagnosis, factory automation, machine translation, and many more!</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Supervised-Learning">Supervised Learning<a class="anchor-link" href="#Supervised-Learning">&#182;</a></h1><p>The most common approach to machine learning is supervised learning.</p>
-<center><img width=70% src="https://aml.hongjunwu.com/slides/img/tesla_data.png"/></center><ol>
+<center><img width=70% src="https://cornell-machine-learning.github.io/aml-images/img/tesla_data.png"/></center><ol>
 <li>First, we collect a dataset of labeled training examples.</li>
 <li>We train a model to output accurate predictions on this dataset.</li>
 <li>When the model sees new, similar data, it will also be accurate.</li>
@@ -13854,7 +13854,7 @@ medical diagnosis, factory automation, machine translation, and many more!</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Reinforcement-Learning">Reinforcement Learning<a class="anchor-link" href="#Reinforcement-Learning">&#182;</a></h1><p>In reinforcement learning, an agent is interacting with the world over time. We teach it good behavior by providing it with rewards.</p>
-<center><img src="https://aml.hongjunwu.com/slides/img/rl.png"/></center><p><sub><sup>Image by Lily Weng</sup></sub></p>
+<center><img src="https://cornell-machine-learning.github.io/aml-images/img/rl.png"/></center><p><sub><sup>Image by Lily Weng</sup></sub></p>
 
 </div>
 </div>
@@ -13879,7 +13879,7 @@ medical diagnosis, factory automation, machine translation, and many more!</p>
 <ul>
 <li>AI is about building machines that exhibit intelligence.</li>
 <li>ML enables machines to learn from experience, a useful tool for AI.</li>
-<li>Deep learning focuses on a family of learning algorithms loosely inspired by the brain.<center><img width="50%" src="https://aml.hongjunwu.com/slides/img/ai_ml_dl.png"/></center></li>
+<li>Deep learning focuses on a family of learning algorithms loosely inspired by the brain.<center><img width="50%" src="https://cornell-machine-learning.github.io/aml-images/img/ai_ml_dl.png"/></center></li>
 </ul>
 <p><sub><sup>Image [source](https://towardsdatascience.com/understanding-the-difference-between-ai-ml-and-dl-cceb63252a6c).</sup></sub></p>
 
@@ -13889,7 +13889,7 @@ medical diagnosis, factory automation, machine translation, and many more!</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-3:-About-the-Course">Part 3: About the Course<a class="anchor-link" href="#Part-3:-About-the-Course">&#182;</a></h1><p>Next, let's look at the machine learning topics that we will cover.</p>
 
 </div>
@@ -14116,7 +14116,7 @@ medical diagnosis, factory automation, machine translation, and many more!</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-4:-Logistics-and-Other-Information">Part 4: Logistics and Other Information<a class="anchor-link" href="#Part-4:-Logistics-and-Other-Information">&#182;</a></h1><p>We will go over some practical bits of information.</p>
 
 </div>
@@ -14176,7 +14176,7 @@ medical diagnosis, factory automation, machine translation, and many more!</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Again,-Welcome-to-Applied-Machine-Learning!">Again, Welcome to Applied Machine Learning!<a class="anchor-link" href="#Again,-Welcome-to-Applied-Machine-Learning!">&#182;</a></h3><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left>
+<h3 id="Again,-Welcome-to-Applied-Machine-Learning!">Again, Welcome to Applied Machine Learning!<a class="anchor-link" href="#Again,-Welcome-to-Applied-Machine-Learning!">&#182;</a></h3><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left>
 </div>
 </div>
 </div>
@@ -14205,8 +14205,8 @@ require(
       waitSeconds: 15
     },
     [
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/js/reveal.js"
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js",
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -14221,9 +14221,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/classList.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/notes/notes.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]

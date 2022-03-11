@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/reveal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/pdf.css';
+        link.href = 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/html5shiv.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
@@ -13215,7 +13215,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left><h1 id="Lecture-14:-Neural-Networks">Lecture 14: Neural Networks<a class="anchor-link" href="#Lecture-14:-Neural-Networks">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov, Jin Sun</strong><br>Cornell Tech</p>
+<left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left><h1 id="Lecture-14:-Neural-Networks">Lecture 14: Neural Networks<a class="anchor-link" href="#Lecture-14:-Neural-Networks">&#182;</a></h1><h3 id="Applied-Machine-Learning">Applied Machine Learning<a class="anchor-link" href="#Applied-Machine-Learning">&#182;</a></h3><p><strong>Volodymyr Kuleshov, Jin Sun</strong><br>Cornell Tech</p>
 
 </div>
 </div>
@@ -13264,7 +13264,7 @@ is known as the <em>sigmoid</em> or <em>logistic</em> function.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="A-Biological-Neuron">A Biological Neuron<a class="anchor-link" href="#A-Biological-Neuron">&#182;</a></h1><p>In order to define an artifical neuron, let's look first at a biological one.</p>
 <center>
-<img width=60% src="https://aml.hongjunwu.com/slides/img/nns/bio-neuron.png">
+<img width=60% src="https://cornell-machine-learning.github.io/aml-images/img/nns/bio-neuron.png">
 </center><ul>
 <li>Each neuron receives input signals from its dendrites</li>
 <li>If input signals are strong enough, neuron fires output along its axon, which connects to the dendrites of other neurons.</li>
@@ -13281,7 +13281,7 @@ is known as the <em>sigmoid</em> or <em>logistic</em> function.</p>
 <li>Dendrite $j$ gets signal $x_j$; modulates multiplicatively to $w_j \cdot x_j$.</li>
 <li>The body of the neuron sums the modulated inputs: $\sum_{j=1}^d w_j \cdot x_j$.</li>
 <li>These go into the activation function that produces an ouput.<center>
-<img width="55%" src="https://aml.hongjunwu.com/slides/img/nns/aneuron.jpeg">
+<img width="55%" src="https://cornell-machine-learning.github.io/aml-images/img/nns/aneuron.jpeg">
 </center></li>
 </ul>
 
@@ -13774,7 +13774,7 @@ Iteration 200000.
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-2:-Artificial-Neural-Networks">Part 2: Artificial Neural Networks<a class="anchor-link" href="#Part-2:-Artificial-Neural-Networks">&#182;</a></h1><p>Let's now see how we can connect neurons into networks that form complex models that further mimic the brain.</p>
 
 </div>
@@ -13836,7 +13836,7 @@ where each $w_k$ is the vector of weights for the $k$-th neuron. We refer to $p$
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The first output of the layer is a neuron with weights $w_1$:</p>
 <center>
-<img src="https://aml.hongjunwu.com/slides/img/nns/layers-1.png" width=60%>
+<img src="https://cornell-machine-learning.github.io/aml-images/img/nns/layers-1.png" width=60%>
 </center>
 </div>
 </div>
@@ -13846,7 +13846,7 @@ where each $w_k$ is the vector of weights for the $k$-th neuron. We refer to $p$
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The second neuron has weights $w_2$:</p>
 <center>
-<img src="https://aml.hongjunwu.com/slides/img/nns/layers-2.png" width=60%>
+<img src="https://cornell-machine-learning.github.io/aml-images/img/nns/layers-2.png" width=60%>
 </center>
 </div>
 </div>
@@ -13856,7 +13856,7 @@ where each $w_k$ is the vector of weights for the $k$-th neuron. We refer to $p$
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The third neuron has weights $w_3$:</p>
 <p><center>
-<img src="https://aml.hongjunwu.com/slides/img/nns/layers-3.png" width=60%>
+<img src="https://cornell-machine-learning.github.io/aml-images/img/nns/layers-3.png" width=60%>
 </center><br>
 The parameters of the layer are $w_1, w_2, w_3$.</p>
 
@@ -13884,7 +13884,7 @@ where $\sigma(W\cdot x)_k = \sigma(w_k^\top x)$ and $W_{kj} = (w_k)_j$.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Visually, we can represent this as follows:</p>
 <center>
-<img src="https://aml.hongjunwu.com/slides/img/nns/layers-4.png" width=60%>
+<img src="https://cornell-machine-learning.github.io/aml-images/img/nns/layers-4.png" width=60%>
 </center>
 </div>
 </div>
@@ -13905,7 +13905,7 @@ The final layer $f_L$ has size one (assuming the neural net has one ouput); inte
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We can visualize this graphically as follows.</p>
 <center>
-<img src="https://aml.hongjunwu.com/slides/img/nns/layers-L.png" width=100%>
+<img src="https://cornell-machine-learning.github.io/aml-images/img/nns/layers-L.png" width=100%>
 </center>
 </div>
 </div>
@@ -13915,7 +13915,7 @@ The final layer $f_L$ has size one (assuming the neural net has one ouput); inte
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Example-of-a-Neural-Network">Example of a Neural Network<a class="anchor-link" href="#Example-of-a-Neural-Network">&#182;</a></h1><p>Let's implement a small two layer neural net with 3 hidden units.</p>
 <center>
-<img src="https://aml.hongjunwu.com/slides/img/nns/nn-example.png" width=60%>
+<img src="https://cornell-machine-learning.github.io/aml-images/img/nns/nn-example.png" width=60%>
 </center>
 </div>
 </div>
@@ -14023,7 +14023,7 @@ The final layer $f_L$ has size one (assuming the neural net has one ouput); inte
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><left><img width=25% src="https://aml.hongjunwu.com/slides/img/cornell_tech2.svg"></left></p>
+<p><left><img width=25% src="https://cornell-machine-learning.github.io/aml-images/img/cornell_tech2.svg"></left></p>
 <h1 id="Part-3:-Backpropagation">Part 3: Backpropagation<a class="anchor-link" href="#Part-3:-Backpropagation">&#182;</a></h1><p>We have defined what is an artificial neural network.</p>
 <p>Let's now see how we can train it so that it performs well on given tasks.</p>
 
@@ -14061,7 +14061,7 @@ The final layer $f_L$ has size one (assuming the neural net has one ouput); inte
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We can visualize this graphically as follows.</p>
-<p><img src="https://aml.hongjunwu.com/slides/img/nns/layers-L.png" width=100%></p>
+<p><img src="https://cornell-machine-learning.github.io/aml-images/img/nns/layers-L.png" width=100%></p>
 
 </div>
 </div>
@@ -14160,7 +14160,7 @@ where $y_L, y_{L-1} \cdots y_l$ are the outputs from each layer.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Illustration:">Illustration:<a class="anchor-link" href="#Illustration:">&#182;</a></h3><p>Let's start with a single layer $y = f(x;\theta)$:</p>
 <center>
-<img width="800px" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-abstract-figure0.png">
+<img width="800px" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-abstract-figure0.png">
 </center>
 </div>
 </div>
@@ -14170,7 +14170,7 @@ where $y_L, y_{L-1} \cdots y_l$ are the outputs from each layer.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>With the output $y$, target label $\hat{y}$, and loss function $J$, we can compute the loss (error) of the prediction.</p>
 <center>
-<img width="800" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-abstract-figure1.png">
+<img width="800" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-abstract-figure1.png">
 </center>
 </div>
 </div>
@@ -14181,7 +14181,7 @@ where $y_L, y_{L-1} \cdots y_l$ are the outputs from each layer.</p>
 <p>The backpropagation starts from the output layer and moves backwards.</p>
 <p>We first need to compute the gradients of the loss to the output.</p>
 <center>
-<img width="800" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-abstract-figure2.png">
+<img width="800" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-abstract-figure2.png">
 </center>
 </div>
 </div>
@@ -14191,7 +14191,7 @@ where $y_L, y_{L-1} \cdots y_l$ are the outputs from each layer.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>After we have those, then using the chain rule, we can  compute the gradients with respect to the network parameters $\theta$.</p>
 <center>
-<img width="800" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-abstract-figure3.png">
+<img width="800" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-abstract-figure3.png">
 </center>
 </div>
 </div>
@@ -14201,7 +14201,7 @@ where $y_L, y_{L-1} \cdots y_l$ are the outputs from each layer.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We can keep working upstream and compute gradients to the input. After that we finish the backpropagation in this layer.</p>
 <center>
-<img width="800" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-abstract-figure4.png">
+<img width="800" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-abstract-figure4.png">
 </center>
 </div>
 </div>
@@ -14211,7 +14211,7 @@ where $y_L, y_{L-1} \cdots y_l$ are the outputs from each layer.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We can apply this process recursively to obtain derivatives for any number of layers.</p>
 <center>
-<img width="900" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-abstract-figure6.png">
+<img width="900" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-abstract-figure6.png">
 </center>
 </div>
 </div>
@@ -14228,7 +14228,7 @@ where $y_L, y_{L-1} \cdots y_l$ are the outputs from each layer.</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <center>
-<img width="450" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure0.png">
+<img width="450" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure0.png">
 </center><p>For our two layer fully connected network with sigmoid activation, the network is composed of following functions:</p>
 $$\mathbf{h} = \sigma(\mathbf{W}^T \mathbf{x})$$$$y = \sigma(\mathbf{V}^T \mathbf{h}),$$<p>where $\mathbf{x} = [x_1,x_2]^T, \mathbf{h} = [h_1,h_2,h_3]^T, \mathbf{W} \in \mathbb{R}^{2\times3}, \mathbf{V} \in \mathbb{R}^{3\times1}$, and $\sigma$ is the sigmoid function.</p>
 
@@ -14253,7 +14253,7 @@ $$\mathbf{h} = \sigma(\mathbf{W}^T \mathbf{x})$$$$y = \sigma(\mathbf{V}^T \mathb
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><center>
-<img width="700" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure1.png">
+<img width="700" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure1.png">
 </center>
 We can compute the output of the hidden layer, $\mathbf{h}$:</p>
 <p>$h_1 = \sigma (W_{11} \cdot x_1 + W_{21} \cdot x_2) = \sigma (1.0\times5.0 + 2.0\times3.0) = 0.99998329857$</p>
@@ -14265,7 +14265,7 @@ We can compute the output of the hidden layer, $\mathbf{h}$:</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><center>
-<img width="700" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure2.png">
+<img width="700" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure2.png">
 </center>
 We can compute the output of the hidden layer, $\mathbf{h}$:</p>
 \begin{align*}
@@ -14279,7 +14279,7 @@ h_2 &amp;= \sigma (W_{12} \cdot x_1 + W_{22} \cdot x_2) = \sigma (-1.0\times5.0 
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><center>
-<img width="700" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure3.png">
+<img width="700" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure3.png">
 </center><br>
 We can compute the output of the hidden layer, $\mathbf{h}$:</p>
 \begin{align*}
@@ -14294,7 +14294,7 @@ h_3 &amp;= \sigma (W_{13} \cdot x_1 + W_{23} \cdot x_2) = \sigma (3.0\times5.0 +
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><center>
-<img width="800" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure4.png">
+<img width="800" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure4.png">
 </center>
 Similarly we can get the output of $y$:</p>
 <p>$y = \sigma (V_1 \cdot h_1 + V_2 \cdot h_2 + V_3 \cdot h_3) = 0.590378$</p>
@@ -14306,7 +14306,7 @@ Similarly we can get the output of $y$:</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><center>
-<img width="700" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure5.png">
+<img width="700" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure5.png">
 </center>
 Next, we compute the binary cross entropy loss with the target label $1$:
 $J(y, \hat{y}) = - \log (y) = 0.52699$</p>
@@ -14321,7 +14321,7 @@ $\frac{\mathrm{d}J}{\mathrm{d}{y}} = - 1/y = -1.69383$</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><center>
-<img width="700" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure5.png">
+<img width="700" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure5.png">
 </center>
 We are going to compute the gradients to the weights in the output layer:
 $$\frac{\mathrm{d}J}{\mathrm{d}{V}} = \frac{\mathrm{d}J}{\mathrm{d}{y}} \frac{\mathrm{d}y}{\mathrm{d}{V}}$$
@@ -14350,7 +14350,7 @@ Applying these formulas, we obtain the gradients of $\mathbf{V}$:</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <center>
-<img width="700" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure6.png">
+<img width="700" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure6.png">
 </center><p>Next, we want to compute gradients at the hidden layer:</p>
 $$\frac{\mathrm{d}J}{\mathrm{d}{h}} = \frac{\mathrm{d}J}{\mathrm{d}{y}} \frac{\mathrm{d}y}{\mathrm{d}{h}}$$
 </div>
@@ -14360,7 +14360,7 @@ $$\frac{\mathrm{d}J}{\mathrm{d}{h}} = \frac{\mathrm{d}J}{\mathrm{d}{y}} \frac{\m
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><center>
-<img width="600" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure7.png">
+<img width="600" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure7.png">
 </center>
 Similarly to the previous slide:
 \begin{align*}
@@ -14378,7 +14378,7 @@ Similarly to the previous slide:
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><center>
-<img width="600" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure8.png">
+<img width="600" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure8.png">
 </center>
 Since we have another linear layer with sigmoid activation, the way we compute gradients will be the same as in the output layer.</p>
 \begin{align*}
@@ -14393,7 +14393,7 @@ Since we have another linear layer with sigmoid activation, the way we compute g
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><center>
-<img width="700" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure9.png">
+<img width="700" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure9.png">
 </center>
 We can compute the rest the same way.</p>
 <p>Note the gradients to the weights connecting to $h_2$ are larger in magnitude than others.</p>
@@ -14405,7 +14405,7 @@ We can compute the rest the same way.</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <center>
-<img width="700" src="https://aml.hongjunwu.com/slides/img/nns/backprop/backprop-twolayers-figure10.png">
+<img width="700" src="https://cornell-machine-learning.github.io/aml-images/img/nns/backprop/backprop-twolayers-figure10.png">
 </center><p>And now we have the gradients to all the learnable weights in this two layer network and we can tune the weights by gradient descenet.</p>
 <p>The gradients tell us how much to change for each weight so that the loss will become smaller.</p>
 
@@ -14664,8 +14664,8 @@ require(
       waitSeconds: 15
     },
     [
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/js/reveal.js"
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js",
+      "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -14680,9 +14680,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/classList.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/notes/notes.js",
+                { src: "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]
